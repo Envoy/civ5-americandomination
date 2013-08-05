@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AMERICAN_MILITARY_BASE</Type>
+			<BuildingClass>BUILDINGCLASS_MILITARY_BASE</BuildingClass>
+			<Cost>500</Cost>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_AMERICAN_MILITARY_BASE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_AMERICAN_MILITARY_BASE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MILITARYBASE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AMERICAN_MILITARY_BASE_STRATEGY</Strategy>
+			<ArtDefineTag>MILITARY BASE</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>1800</Defense>
+			<ExtraCityHitPoints>35</ExtraCityHitPoints>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<DisplayPosition>2</DisplayPosition>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>10</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MILITARY_BASE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MILITARY_BASE</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MILITARY_BASE</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MILITARY_BASE</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	<Building_DomainProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MILITARY_BASE</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MILITARY_BASE</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MILITARY_BASE</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_DomainProductionModifiers>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MILITARY_BASE</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MILITARY_BASE</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_MILITARY_BASE">
+			<Text>U.S. Military Base</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_MILITARY_BASE_HELP">
+			<Text>+15 XP for all Units. +15% [ICON_PRODUCTION] Production when building all Units.[NEWLINE][NEWLINE]City must have an Arsenal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_MILITARY_BASE_STRATEGY">
+			<Text>The U.S. Military Base is an American Unique Building, replacing the Military Base. It is a mid-game building which increases the city's Defensive Strength by 18 and Hit Points by 35. The city must possess an Arsenal before a U.S. Military Base may be constructed.</Text>
+		</Row>		
+	</Language_en_US>
+</GameData>

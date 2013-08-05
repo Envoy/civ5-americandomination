@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_SUPER_CARRIER</Type>
+			<DamageStates>3</DamageStates>
+			<Formation></Formation>
+		</Row>
+	</ArtDefine_UnitInfos>
+
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_SUPER_CARRIER</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SUPER_CARRIER</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_SUPER_CARRIER</Type>
+			<Scale>0.12</Scale>
+			<Domain>Sea</Domain>
+			<Model>Porte-Avions_2.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SUPER_CARRIER</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<DisableActions></DisableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SUPER_CARRIER</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<ID>ART_DEF_VEFFECT_MECH_ROCKET_PROJECTILE</ID>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION1TON</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SUPER_CARRIER</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<ID>ART_DEF_VEFFECT_TRAIL_RAILGUN_PROJ</ID>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_SUPER_CARRIER</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_SuperCarrier.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+</GameData>

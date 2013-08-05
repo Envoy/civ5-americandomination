@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_NUCLEAR_SUBMARINE</Class>
+			<Type>UNIT_AMERICAN_NUCLEAR_SUBMARINE</Type>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+			<Combat>80</Combat>
+			<RangedCombat>140</RangedCombat>
+			<Cost>500</Cost>
+			<Moves>10</Moves>
+			<Range>6</Range>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_NUCLEAR_SUBMARINE</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_NUCLEARSUBMARINE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_NUCLEAR_SUBMARINE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_AMERICAN_NUCLEAR_SUBMARINE</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>20</MinAreaSize>
+			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_NUCLEAR_SUBMARINE</UnitArtInfo>
+			<UnitFlagIconOffset>81</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>34</PortraitIndex>
+			<MoveRate>SUB</MoveRate>
+		</Row>
+	</Units>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_CARGO_X</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_SILENT_HUNTER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_TARGETING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_TARGETING_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_TARGETING_3</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_NUCLEAR_SUBMARINE">
+			<Text>Ohio-class Nuclear Submarine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_NUCLEAR_SUBMARINE_STRATEGY">
+			<Text>The Ohio-class Nuclear Submarine is an American Unique Unit, replacing the Nuclear Submarine. It too is invisible to most units and can see other submarines. Most importantly, Ohio-class Nuclear Submarines can carry Tomahawk Missiles and Trident II Nuclear Missiles. Like submarines, Ohio-class Nuclear Subs are vulnerable to enemy Destroyers, Missile Cruisers, and Subs, so send units of your own out ahead to make sure the coast is clear.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AMERICAN_NUCLEAR_SUBMARINE">
+			<Text>Invisible to all Units except Destroyers, Missile Cruisers and other Submarines, or until it attacks or is adjacent to another unit. Can carry 10 Missiles, and is specialized in attacking Naval Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_NUCLEARSUBMARINE_TEXT">
+			<Text>The Ohio class is named after the lead submarine of this class, the USS Ohio (SSGN-726) formerly designated SSBN-726. The 14 Trident II SSBNs together carry approximately fifty percent of the total American active inventory of strategic thermonuclear warheads. The exact number of warheads deployed in the oceans of the world varies in an unpredictable and classified manner, always at or below a maximum number set by various Strategic Arms Reduction Treaties. Although the Trident missiles have no preset targets when the submarines go on patrol, the warships, when required, are capable of quickly being assigned targets by using secure and constant radio communications links at sea, including VLF systems.[NEWLINE][NEWLINE]The Ohio-class submarines are the largest submarines ever built for the U.S. Navy. Two classes of Russian Navy submarines have larger total displacements: the Soviet-designed Typhoon-class submarines have more than twice the total displacements, and the Russian Federation's Borei-class submarines have roughly 25 percent greater displacements, but the Ohio-class warships carry more missiles and warheads than either of the other designs.[NEWLINE][NEWLINE]The Ohio-class submarines were designed specifically for extended war-deterrence patrols. Each of these submarines are provided with two complete crews, called the Blue crew and the Gold crew, with each crew serving typically on 70 to 90 day deterrent patrols. To decrease the time in port for crew turnover and replenishment, three large logistics hatches have been installed to provide high-diameter resupply and repair access. These hatches allow rapid transfer of supply pallets, equipment replacement modules, and machinery components, significantly reducing the time required for replenishment and maintenance of the submarines.[NEWLINE][NEWLINE]The design of the Ohio class allows the warship to operate for about fifteen years between major overhauls. These submarines are reported to be as quiet at their cruising speed of 20 knots (37 km/h; 23 mph) or more than the previous Lafayette-class submarines were at 6 knots (11 km/h; 6.9 mph), although exact information remains classified.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Ohio-class_submarine</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

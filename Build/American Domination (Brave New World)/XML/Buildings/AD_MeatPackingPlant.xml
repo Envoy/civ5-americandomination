@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AMERICAN_FACTORY</Type>
+			<BuildingClass>BUILDINGCLASS_FACTORY</BuildingClass>
+			<Cost>360</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<Help>TXT_KEY_BUILDING_AMERICAN_FACTORY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_AMERICAN_FACTORY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_AMERICAN_FACTORY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AMERICAN_FACTORY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FACTORY</ArtDefineTag>
+			<XBuiltTriggersIdeologyChoice>3</XBuiltTriggersIdeologyChoice>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>3</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_ResourceQuantityRequirements>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Building_ResourceQuantityRequirements>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>15</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_FACTORY">
+			<Text>Meat Packing Plant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_FACTORY_HELP">
+			<Text>Each source of [ICON_RES_COW] Cow produces +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production. Requires 1 [ICON_RES_COAL] Coal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_FACTORY_STRATEGY">
+			<Text>The Meat Packing Plant is an American Unique Building, replacing the Factory. The Meat Packing Plant is an Industrial-era building which greatly increases a city's [ICON_PRODUCTION] Production and [ICON_FOOD] Food. The city must already possess a Workshop. 1 [ICON_RES_COAL] Coal is consumed when a Meat Packing Plant is created.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_FACTORY_TEXT">
+			<Text>The meat packing industry handles the slaughtering, processing, packaging, and distribution of animals such as cattle, pigs, sheep and other livestock. The industry is primarily focused on producing meat for human consumption, but it also yields a variety of by-products including hides, feathers, dried blood, and, through the process of rendering, fat such as tallow and protein meals such as meat and bone meal. In the U.S. and some other countries, the facility where the meat packing is done is called a meat packing plant.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Meat_packing_industry</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

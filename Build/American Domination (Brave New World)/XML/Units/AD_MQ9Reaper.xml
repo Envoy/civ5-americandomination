@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_UAV</Class>
+			<Type>UNIT_AMERICAN_UAV</Type>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+			<Combat>21</Combat>
+			<RangedCombat>30</RangedCombat>
+			<Cost>375</Cost>
+			<Moves>6</Moves>
+			<Range>3</Range>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_UAV</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_UAV_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_UAV_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_AMERICAN_UAV</Help>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_UAV</UnitArtInfo>
+			<UnitFlagAtlas>UNITS_UAV_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_UNIT_ATLAS_UAV</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_UAV</UnitType>
+			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_UAV">
+			<Text>MQ-9 Reaper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AMERICAN_UAV">
+			<Text>Modern Recon Unit that has more range and strength than the Scout. It is capable of hovering over mountains, but takes damage if ending its turn on one. May enter rival territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_UAV_STRATEGY">
+			<Text>The MQ-9 Reaper is an American Unique Unit, replacing the UAV. This modern unit can attack but is weak. However, it can move over all terrain types including mountains as if they were clear, but it must embark to cross water. Use it for world exploration.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_UAV_TEXT">
+			<Text>The General Atomics MQ-9 Reaper (formerly called Predator B) is an unmanned aerial vehicle (UAV), capable of remote controlled or autonomous flight operations, developed by General Atomics Aeronautical Systems (GA-ASI) for use by the United States Air Force, the United States Navy, the CIA, U.S. Customs and Border Protection, the Royal Air Force, and the Italian Air Force. The MQ-9 and other UAVs are referred to as Remotely Piloted Vehicles/Aircraft (RPV/RPA) by the U.S. Air Force to indicate their human ground controllers. The MQ-9 is the first hunter-killer UAV designed for long-endurance, high-altitude surveillance.[NEWLINE][NEWLINE]The MQ-9 is a larger, heavier, and more capable aircraft than the earlier MQ-1 Predator; it can be controlled by the same ground systems used to control MQ-1s. The Reaper has a 950-shaft-horsepower (712 kW) turboprop engine, far more powerful than the Predator's 115 hp (86 kW) piston engine. The power increase allows the Reaper to carry 15 times more ordnance payload and cruise at almost three times the speed of the MQ-1. The aircraft is monitored and controlled by aircrew in the Ground Control Station (GCS), including weapons employment. The aircraft can also fly pre-programmed routes autonomously.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

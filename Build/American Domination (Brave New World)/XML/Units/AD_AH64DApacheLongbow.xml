@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_HELICOPTER_GUNSHIP</Class>
+			<Type>UNIT_AMERICAN_HELICOPTER_GUNSHIP</Type>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<Combat>85</Combat>
+			<Cost>500</Cost>
+			<Moves>10</Moves>
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_HELICOPTER_GUNSHIP</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_HELICOPTER_GUNSHIP_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_HELICOPTER_GUNSHIP_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_HELICOPTER_GUNSHIP</UnitArtInfo>
+			<UnitFlagIconOffset>75</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>28</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+	</Units>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_AIR_LOGISTICS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_HELI_AMBUSH_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_HELI_REPAIR</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_HELICOPTER_GUNSHIP">
+			<Text>AH-64D Apache Longbow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_HELICOPTER_GUNSHIP_STRATEGY">
+			<Text>The AH-64D Apache Longbow is an American Unique Unit, replacing the Helicopter Gunship. The AH-64D Apache Longbow is a deadly air unit that in most respects acts like any ground unit, except that it cannot capture cities. Its movement of 10 makes it extremely quick, and it can move over all terrain types including mountains as if they were clear, but it must embark to cross water. Longbows receive a hefty combat bonus when fighting tanks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_HELICOPTER_GUNSHIP_TEXT">
+			<Text>The Boeing AH-64 Apache is a four-blade, twin-engine attack helicopter with a tailwheel-type landing gear arrangement, and a tandem cockpit for a two-man crew. The Apache was developed as Model 77 by Hughes Helicopters for the United States Army's Advanced Attack Helicopter program to replace the AH-1 Cobra, and was first flown on 30 September 1975. The AH-64 was introduced to US Army service in April 1986.[NEWLINE][NEWLINE]The AH-64 Apache features a nose-mounted sensor suite for target acquisition and night vision systems. It is armed with a 30-millimeter (1.2 in) M230 Chain Gun carried between the main landing gear, under the aircraft's forward fuselage. It has four hardpoints mounted on stub-wing pylons, typically carrying a mixture of AGM-114 Hellfire missiles and Hydra 70 rocket pods. The AH-64 has a large amount of systems redundancy to improve combat survivability.[NEWLINE][NEWLINE]The U.S. Army selected the AH-64, by Hughes Helicopters, over the Bell YAH-63 in 1976, and later approved full production in 1982. McDonnell Douglas continued production and development after purchasing Hughes Helicopters from Summa Corporation in 1984. The first production AH-64D Apache Longbow, an upgraded version of the original Apache, was delivered to the Army in March 1997. Production has been continued by Boeing Defense, Space & Security; over one thousand AH-64s have been produced to date.[NEWLINE][NEWLINE]The AH-64D Apache Longbow, is equipped with an advanced sensor suite and a glass cockpit. The main improvement over the A-variant is the dome installed over the main rotor, housing the AN/APG-78 Longbow millimeter-wave Fire Control Radar (FCR) target acquisition system and the Radar Frequency Interferometer (RFI).[189][190] The raised position of the radome enables the detection of targets and launching of missiles while the helicopter is behind obstacles (e.g. terrain, trees or buildings). A radio modem integrated with the sensor suite allows data to be shared with other D-models; allowing them to fire on targets detected by a single helicopter.[NEWLINE][NEWLINE]The aircraft is powered by a pair of uprated T700-GE-701C engines. The forward fuselage was expanded to accommodate new systems to improve crashworthiness, survivability, navigation, and 'tactical internet' communications capabilities. The first of the upgraded Block II Apaches was delivered to the US Army in February 2003. Block II includes upgrades to the digital communications systems.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Boeing_AH-64_Apache</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

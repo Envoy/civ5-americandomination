@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AMERICAN_WALLS</Type>
+			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
+			<Cost>75</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_AMERICAN_WALLS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_AMERICAN_WALLS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WALLS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AMERICAN_WALLS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>600</Defense>
+			<ExtraCityHitPoints>60</ExtraCityHitPoints>
+			<CityWall>true</CityWall>			
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>32</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_WALLS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_WALLS</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_WALLS">
+			<Text>Pioneer Fort</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_WALLS_HELP">
+			<Text>+25% [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_WALLS_STRATEGY">
+			<Text>The Pioneer Fort is an American Unique Building, replacing Walls. The Pioneer Fort increases a city's Defense Strength by 6 and Hit Points by 60, making the city more difficult to capture. The Pioneer Fort also provides +25% [ICON_FOOD] Food. Pioneer Forts are quite useful for cities located along a civilization's frontier.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

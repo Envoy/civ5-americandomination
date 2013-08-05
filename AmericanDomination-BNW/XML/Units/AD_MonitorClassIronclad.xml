@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Type>UNIT_AMERICAN_IRONCLAD</Type>
+			<Class>UNITCLASS_IRONCLAD</Class>
+			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
+			<Cost>300</Cost>
+			<Combat>50</Combat>
+			<RangedCombat>50</RangedCombat>
+			<Moves>4</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_IRONCLAD</Description>
+			<Civilopedia>TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_MONITOR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_IRONCLAD_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_AMERICAN_IRONCLAD_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_UNION_IRONCLAD</UnitArtInfo>
+			<MoveRate>BOAT</MoveRate>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<UnitFlagAtlas>CIVIL_WAR_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>CIVIL_WAR_UNIT_ATLAS</IconAtlas>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_IRONCLAD</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_IRONCLAD</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_IRONCLAD</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_AMERICAN_IRONCLAD</UnitType>
+			<UnitClassType>UNITCLASS_DESTROYER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_IRONCLAD</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_IRONCLAD</UnitType>
+			<PromotionType>PROMOTION_STEAM_POWERED</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_IRONCLAD</UnitType>
+			<PromotionType>PROMOTION_FIRE_SUPPORT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_IRONCLAD</UnitType>
+			<PromotionType>PROMOTION_ARMOR_PLATING_1</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_AMERICAN_IRONCLAD</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row
+	</Unit_ResourceQuantityRequirements>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_IRONCLAD">
+			<Text>Monitor-class Ironclad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_IRONCLAD_STRATEGY">
+			<Text>The Monitor-class Ironclad is an American Unique Unit, replacing the Ironclad. Monitors are the first steam-powered warships available. The Monitor adds ranged attack abilities on top of its superior naval melee capabilities. They are harder to kill than any sailing vessel, and their Combat strength is higher. Use them primarily for in-shore defense and to assault cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_IRONCLAD_HELP">
+			<Text>A very powerful naval ranged unit, the Monitor-class Ironclad pays for its strength by being slower in ocean tiles.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

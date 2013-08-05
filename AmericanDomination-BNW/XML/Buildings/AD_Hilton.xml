@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AMERICAN_HOTEL</Type>
+			<BuildingClass>BUILDINGCLASS_HOTEL</BuildingClass>
+			<Cost>300</Cost>
+			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
+			<Description>TXT_KEY_BUILDING_AMERICAN_HOTEL</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_AMERICAN_HOTEL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AMERICAN_HOTEL_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_AMERICAN_HOTEL_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_HOTEL</ArtDefineTag>
+			<LandmarksTourismPercent>75</LandmarksTourismPercent>
+			<GreatWorksTourismModifier>75</GreatWorksTourismModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>EXPANSION2_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_HOTEL</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_HOTEL">
+			<Text>Hilton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_HOTEL_STRATEGY">
+			<Text>The Hilton is an American Unique Building, replacing the Hotel. With its massive boost to [ICON_TOURISM] Tourism, the Hilton is an excellent choice when trying to achieve a Culture victory, or attempting to increase your ideological impact on other civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_HOTEL_HELP">
+			<Text>75% of the [ICON_CULTURE] Culture from World Wonders, Natural Wonders, and Improvements (Landmarks, Moai, Chateau) is added to the [ICON_TOURISM] Tourism output of the city. [ICON_TOURISM] Tourism output from Great Works +75%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_AMERICAN_HOTEL_TEXT">
+			<Text>Hilton Hotels and Resorts (formerly known as Hilton Hotels) is an international chain of full service hotels and resorts, it is the flagship brand of Hilton Worldwide. The original company was founded by Conrad Hilton and is now owned by Hilton Worldwide. Hilton hotels are either owned by, managed by, or franchised to independent operators by Hilton Worldwide. Hilton Hotels became the first coast-to-coast hotel chain of the United States in 1943. As of 2010, there are now over 530 Hilton branded hotels across the world in 78 countries across six continents.[NEWLINE][NEWLINE]The Hilton Hotels brand remains one of the company's flagship brands and one of the largest hotel brands in the world. The company places marketing emphasis on both business travel and leisure travel with locations in major city centers, near airports, convention centers, and a number of vacation resorts and leisure-oriented hotels in popular vacation destinations around the world.[NEWLINE][NEWLINE]Conrad Hilton bought his first hotel, the Mobley Hotel, in 1919 in Cisco, Texas.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Hilton_Hotels</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

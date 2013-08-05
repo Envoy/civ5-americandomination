@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_AMERICAN_HALOJUMP</Type>
+			<Description>TXT_KEY_PROMOTION_AMERICAN_HALOJUMP</Description>
+			<Help>TXT_KEY_PROMOTION_AMERICAN_HALOJUMP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<DropRange>250</DropRange>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_AMERICAN_HALOJUMP</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_CARGO_V</Type>
+			<Description>TXT_KEY_PROMOTION_CARGO_V</Description>
+			<Help>TXT_KEY_PROMOTION_CARGO_V</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CargoChange>5</CargoChange>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_CARGO_V</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_CARGO_VI</Type>
+			<Description>TXT_KEY_PROMOTION_CARGO_VI</Description>
+			<Help>TXT_KEY_PROMOTION_CARGO_VI</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CargoChange>6</CargoChange>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_CARGO_VI</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_CARGO_X</Type>
+			<Description>TXT_KEY_PROMOTION_CARGO_X</Description>
+			<Help>TXT_KEY_PROMOTION_CARGO_X</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CargoChange>10</CargoChange>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_CARGO_X</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_AMERICAN_PATRIOTISM</Type>
+			<Description>TXT_KEY_PROMOTION_AMERICAN_PATRIOTISM</Description>
+			<Help>TXT_KEY_PROMOTION_AMERICAN_PATRIOTISM_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<CaptureDefeatedEnemy>true</CaptureDefeatedEnemy>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_AMERICAN_PATRIOTISM</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_AMERICAN_DOMINATION</Type>
+			<Description>TXT_KEY_PROMOTION_AMERICAN_DOMINATION</Description>
+			<Help>TXT_KEY_PROMOTION_AMERICAN_DOMINATION_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<NearbyEnemyCombatMod>-25</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_AMERICAN_DOMINATION</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_AMERICAN_INGENUITY</Type>
+			<Description>TXT_KEY_PROMOTION_AMERICAN_INGENUITY</Description>
+			<Help>TXT_KEY_PROMOTION_AMERICAN_INGENUITY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<ExperiencePercent>50</ExperiencePercent>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_AMERICAN_INGENUITY</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_AMERICAN_HALOJUMP">
+			<Text>May HALO Jump</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_AMERICAN_HALOJUMP">
+			<Text>May HALO Jump</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_V">
+			<Text>Can Carry 5 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_VI">
+			<Text>Can Carry 6 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_X">
+			<Text>Can Carry 10 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_CARGO_V">
+			<Text>Can Carry 5 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_CARGO_VI">
+			<Text>Can Carry 6 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_CARGO_X">
+			<Text>Can Carry 10 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMERICAN_PATRIOTISM">
+			<Text>American Patriotism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMERICAN_PATRIOTISM_HELP">
+			<Text>Defeated enemy units may join your side.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMERICAN_INGENUITY">
+			<Text>American Ingenuity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMERICAN_INGENUITY_HELP">
+			<Text>Earns experience toward promotions 50% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMERICAN_DOMINATION">
+			<Text>American Domination</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMERICAN_DOMINATION_HELP">
+			<Text>Enemy units receive -25% [ICON_STRENGTH] Combat Strength when adjacent to American Freedombringer units.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AMERICAN_MEDICAL_LAB</Type>
+			<BuildingClass>BUILDINGCLASS_MEDICAL_LAB</BuildingClass>
+			<Cost>500</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_PENICILIN</PrereqTech>
+			<Help>TXT_KEY_BUILDING_AMERICAN_MEDICAL_LAB_HELP</Help>
+			<Description>TXT_KEY_BUILDING_AMERICAN_MEDICAL_LAB</Description>
+			<Civilopedia>TXT_KEY_BUILDING_AMERICAN_MEDICAL_LAB_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AMERICAN_MEDICAL_LAB_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_MEDICAL_LAB</ArtDefineTag>
+			<FoodKept>25</FoodKept>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>62</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MEDICAL_LAB</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MEDICAL_LAB</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MEDICAL_LAB</BuildingType>
+			<ResourceType>RESOURCE_PHARMACEUTICALS</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MEDICAL_LAB</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MEDICAL_LAB</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MEDICAL_LAB</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<IconFontTextures>
+		<Row>
+			<IconFontTexture>ICON_FONT_TEXTURE_PHARMACEUTICALS</IconFontTexture>
+			<IconFontTextureFile>Pharmaceuticals_FontIcon</IconFontTextureFile>
+		</Row>
+	</IconFontTextures>
+	<IconFontMapping>
+		<Row>
+			<IconName>ICON_RES_PHARMACEUTICALS</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_PHARMACEUTICALS</IconFontTexture>
+			<IconMapping>1</IconMapping>
+		</Row>
+	</IconFontMapping>
+	<Resources>
+		<Row>
+			<Type>RESOURCE_PHARMACEUTICALS</Type>
+			<TechCityTrade>TECH_PENICILIN</TechCityTrade>
+			<Happiness>4</Happiness>
+			<Description>TXT_KEY_RESOURCE_PHARMACEUTICALS</Description>
+			<Civilopedia>TXT_KEY_RESOURCE_PHARMACEUTICALS_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_PHARMACEUTICALS_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_MARBLE</ArtDefineTag>
+			<PlacementOrder>3</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>1500</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Player>67</Player>
+			<Flatlands>true</Flatlands>			
+			<IconString>[ICON_RES_PHARMACEUTICALS]</IconString>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_2</IconAtlas>
+		</Row>
+	</Resources>
+	<Resource_YieldChanges>
+		<Row>
+			<ResourceType>RESOURCE_PHARMACEUTICALS</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Resource_YieldChanges>
+	<Resource_Flavors>
+		<Row>
+			<ResourceType>RESOURCE_PHARMACEUTICALS</ResourceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Resource_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_MEDICAL_LAB">
+			<Text>Pharmaceutical Lab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_MEDICAL_LAB_HELP">
+			<Text>25% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born (effect stacks with Aqueduct). Provides 1 [ICON_RES_PHARMACEUTICALS] Pharmaceuticals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_MEDICAL_LAB_STRATEGY">
+			<Text>The Pharmaceutical Lab is an American Unique Building, replacing the Medical Lab. Pharmaceutical Labs are late-game buildings which decrease the amount of [ICON_FOOD] Food a city needs to increase in size by 25%. Each Pharmaceutical Lab provides 1 [ICON_RES_PHARMACEUTICALS] Pharmaceuticals. The city needs to have a Hospital in order to construct the Pharmaceutical Lab.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_MEDICAL_LAB_TEXT">
+			<Text>A pharmaceutical laboratory is an institution that develops, produces, and markets drugs or pharmaceuticals licensed for use as medications.[NEWLINE][NEWLINE]The earliest drugstores date to the Middle Ages. The first known drugstore was opened by Arabian pharmacists in Baghdad in 754, and many more soon began operating throughout the medieval Islamic world and eventually medieval Europe. By the 19th century, many of the drugstores in Europe and North America had eventually developed into larger pharmaceutical companies. Key discoveries of the 1920s and 1930s, such as insulin and penicillin, became mass-manufactured and distributed. Switzerland, Germany and Italy had particularly strong industries, with the UK, US, Belgium and the Netherlands following suit.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Pharmaceutical_industry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_PHARMACEUTICALS">
+			<Text>Pharmaceuticals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_PHARMACEUTICALS_HELP">
+			<Text>Pharmaceuticals are only available through American Cities that have constructed the Pharmaceutical Lab.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_PHARMACEUTICALS_TEXT">
+			<Text>A pharmaceutical, also referred to as a medicine or medication, can be loosely defined as any chemical substance intended for use in the medical diagnosis, cure, treatment, or prevention of disease.</Text>
+		</Row>		
+	</Language_en_US>
+</GameData>

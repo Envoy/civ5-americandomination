@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SETTLER</Class>
+			<Type>UNIT_AMERICAN_SETTLER</Type>
+			<Moves>3</Moves>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH_EARLY_GAME_ONLY</CivilianAttackPriority>
+			<HurryCostModifier>20</HurryCostModifier>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_SETTLE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_SETTLER</Description>
+			<Civilopedia>TXT_KEY_CIV5_AMERICAN_SETTLER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_SETTLER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SETTLER</Help>
+			<Requirements>TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT_HARDCODED</Requirements>
+			<Food>true</Food>
+			<Found>true</Found>
+			<CombatLimit>0</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT__SETTLER</UnitArtInfo>
+			<UnitArtInfoCulturalVariation>true</UnitArtInfoCulturalVariation>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+		</Row>
+	</Units>
+	<Unit_FreePromotions>		
+		<Row>
+			<UnitType>UNIT_AMERICAN_SETTLER</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SETTLER</UnitType>
+			<PromotionType>PROMOTION_SENTRY</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_SETTLER">
+			<Text>Pioneer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_SETTLER_STRATEGY">
+			<Text>The Pioneer is an American Unique Unit, replacing the Settler. Use this unit to construct new cities. It cannot defend itself, so accompany it with a combat unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_AMERICAN_SETTLER_TEXT">
+			<Text>American pioneers are any of the people in American history who migrated west to join in settling and developing new areas. The term especially refers to those who were going to settle any territory which had previously not been settled or developed by European or American society, although the territory may have been inhabited by or utilized by native peoples.[NEWLINE][NEWLINE]The pioneer concept and ethos greatly predate the migration to parts of the United States now called Western, as many places now considered as East were also settled by pioneers from the coast. For example, Daniel Boone, a key figure in American pioneer history, settled in Kentucky, when that "Dark and Bloody Ground" was still undeveloped.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/American_pioneer</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

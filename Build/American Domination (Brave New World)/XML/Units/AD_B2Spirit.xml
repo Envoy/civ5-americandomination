@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_STEALTH_BOMBER</Class>
+			<Type>UNIT_AMERICAN_STEALTH_BOMBER</Type>
+			<PrereqTech>TECH_STEALTH</PrereqTech>
+			<RangedCombat>100</RangedCombat>
+			<Cost>500</Cost>
+			<Moves>6</Moves>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<Immobile>true</Immobile>
+			<Range>40</Range>
+			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_STEALTH_BOMBER</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_STEALTHBOMBER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_STEALTH_BOMBER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_STEALTH_BOMBER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_STEALTH_BOMBER</UnitArtInfo>
+			<UnitFlagIconOffset>79</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>37</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>	
+	</Units>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_AMERICAN_INGENUITY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_EVASION_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_AIR_SIEGE_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_AIR_AMBUSH_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_AIR_TARGETING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_AIR_TARGETING_2</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_STEALTH_BOMBER">
+			<Text>B-2 Spirit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_STEALTH_BOMBER_STRATEGY">
+			<Text>The B-2 Spirit is an American Unique Unit, replacing the Stealth Bomber. The B-2 is an upgraded Stealth Bomber, possessing increased range, a greater Ranged Combat Strength, and an increased ability to avoid enemy anti-aircraft and fighters. The B-2 Spirit has the "air recon" ability, which means that everything within 6 tiles of its starting location is visible at the beginning of the turn. Note that B-2s cannot be transported aboard Carriers. See the rules on Aircraft for more information.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_STEALTHBOMBER_TEXT">
+			<Text>The Northrop Grumman B-2 Spirit (also known as the Stealth Bomber) is an American strategic bomber, featuring low observable stealth technology designed for penetrating dense anti-aircraft defenses; it is able to deploy both conventional and nuclear weapons. The bomber has a crew of two and can drop up to eighty 500 lb (230 kg)-class JDAM GPS-guided bombs, or sixteen 2,400 lb (1,100 kg) B83 nuclear bombs. The B-2 is the only aircraft that can carry large air to surface standoff weapons in a stealth configuration.[NEWLINE][NEWLINE]Development originally started under the "Advanced Technology Bomber" (ATB) project during the Carter administration, and its performance was one of the reasons for his cancellation of the B-1 Lancer. ATB continued during the Reagan administration, but worries about delays in its introduction led to the reinstatement of the B-1 program as well. Program costs rose throughout development. Designed and manufactured by Northrop Grumman with assistance from Boeing, the cost of each aircraft averaged US$737 million (in 1997 dollars). Total procurement costs averaged $929 million per aircraft, which includes spare parts, equipment, retrofitting, and software support. The total program cost including development, engineering and testing, averaged $2.1 billion per aircraft in 1997.[NEWLINE][NEWLINE]Because of its considerable capital and operational costs, the project was controversial in the U.S. Congress and among the Joint Chiefs of Staff. The winding-down of the Cold War in the latter portion of the 1980s dramatically reduced the need for the aircraft, which was designed with the intention of penetrating Soviet airspace and attacking high-value targets. During the late 1980s and 1990s, Congress slashed initial plans to purchase 132 bombers to 21. In 2008, a B-2 was destroyed in a crash shortly after takeoff, and the crew ejected safely. A total of 20 B-2s remain in service with the United States Air Force.[NEWLINE][NEWLINE]Though originally designed primarily as a nuclear bomber, the B-2 was first used in combat to drop conventional bombs on Serbia during the Kosovo War in 1999, and saw continued use during the wars in Iraq and Afghanistan. B-2s were also used during the 2011 Libyan civil war.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Northrop_Grumman_B-2_Spirit</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

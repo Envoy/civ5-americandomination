@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AMERICAN_CONSTABLE</Type>
+			<BuildingClass>BUILDINGCLASS_CONSTABLE</BuildingClass>
+			<Cost>160</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_BANKING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_AMERICAN_CONSTABLE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_AMERICAN_CONSTABLE_TEXT</Civilopedia>
+			<Help>TXT_KEY_BUILDING_AMERICAN_CONSTABLE_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_AMERICAN_CONSTABLE_STRATEGY</Strategy>
+			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<EspionageModifier>-50</EspionageModifier>
+			<Espionage>true</Espionage>
+			<Defense>500</Defense>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>12</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_CONSTABLE</BuildingType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_CONSTABLE">
+			<Text>Pinkertons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_CONSTABLE_HELP">
+			<Text>Reduces enemy spy stealing rate by 50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_CONSTABLE_STRATEGY">
+			<Text>Pinkertons is an American Unique Building, replacing the Constabulary. Pinkertons slows down the rate at which enemy spies can steal technologies from your city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_AMERICAN_CONSTABLE_TEXT">
+			<Text>Pinkerton Government Services, Inc., founded as the Pinkerton National Detective Agency, usually shortened to the Pinkertons, is a private security guard and detective agency established in the U.S. by Allan Pinkerton in 1850 and currently a subsidiary of Securitas AB. Pinkerton became famous when he claimed to have foiled a plot to assassinate president-elect Abraham Lincoln, who later hired Pinkerton agents for his personal security during the Civil War. Pinkerton's agents performed services ranging from security guarding to private military contracting work. At its height, the Pinkerton National Detective Agency employed more agents than there were members of the standing army of the United States of America, causing the state of Ohio to outlaw the agency due to fears it could be hired as a private army. Pinkerton was the largest private law enforcement organization in the world at the height of its power.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Pinkerton_National_Detective_Agency</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

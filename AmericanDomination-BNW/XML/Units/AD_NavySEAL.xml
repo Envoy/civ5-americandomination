@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_PARATROOPER</Class>
+			<Type>UNIT_AMERICAN_PARATROOPER</Type>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<Combat>95</Combat>
+			<Cost>450</Cost>
+			<Moves>5</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_PARADROP</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_PARATROOPER</Description>
+			<Civilopedia>TXT_KEY_CIV5_AMERICAN_PARATROOPER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_PARATROOPER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_AMERICAN_PARATROOPER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<WorkRate>200</WorkRate>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_PARATROOPER</UnitArtInfo>
+			<UnitFlagIconOffset>59</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
+		</Row>
+	</Units>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_SHOCK_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_MEDIC</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_DRILL_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_DEFENSIVE_EMBARKATION</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_ALLWATER_EMBARKATION</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_EMBARKED_SIGHT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_WOODSMAN</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_AMERICAN_HALOJUMP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_AMERICAN_PATRIOTISM</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<BuildType>BUILD_AMERICAN_FORT</BuildType>
+		</Row>
+	</Unit_Builds>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_PARATROOPER">
+			<Text>Navy SEAL</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AMERICAN_PARATROOPER">
+			<Text>Strong infantry Unit capable of HALO jumping up to 250 tiles from friendly territory. Navy SEAL can also move after HALO jumping, but cannot enter combat until the following turn. Can construct hardened forts. May convert defeated enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_PARATROOPER_STRATEGY">
+			<Text>The Navy SEAL is an American Unique Unit, replacing the Paratrooper. The Navy SEAL is a late-game infantryman. It is somewhat weaker than Modern Armor; however, it can HALO jump to any tile (when starting in friendly territory). This allows the Navy SEAL to literally jump over enemy positions and destroy road networks, pillage vital resources and so forth, wrecking havoc behind his lines. The Navy SEAL is at great risk when on such missions, so make sure the target is worth it! The Navy SEAL cannot capture cities. The Navy SEAL also gains many promotions that give it advantages when embarking across the sea.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_AMERICAN_PARATROOPER_TEXT">
+			<Text>The United States Navy's Sea, Air, and Land (SEAL) teams are the U.S. Navy's principal special operations force and a part of the Naval Special Warfare Command (NSWC) and SOCOM.[NEWLINE][NEWLINE]President John F. Kennedy, aware of the situations in Southeast Asia, recognized the need for unconventional warfare and special operations as a measure against guerrilla warfare. In a speech to Congress on 25 May 1961, Kennedy spoke of his deep respect for the United States Army Special Forces. While his announcement of the government's plan to put a man on the moon drew all of the attention, in the same speech he announced his intention to spend over $100 million to strengthen U.S. special operations forces and expand American capabilities in unconventional warfare.[NEWLINE][NEWLINE]The Navy needed to determine its role within the special operations arena. In March 1961, Arleigh Burke, Chief of Naval Operations, recommended the establishment of guerrilla and counter-guerrilla units. These units would be able to operate from sea, air or land. This was the beginning of the Navy SEALs. Most SEALs came from the Navy's Underwater Demolition Teams, who had already gained extensive experience in commando warfare in Korea; however, the Underwater Demolition Teams were still necessary to the Navy's amphibious force.[NEWLINE][NEWLINE]The first two teams were on both US coasts: Team One at Naval Amphibious Base Coronado, in San Diego, California and Team Two at Naval Amphibious Base Little Creek, in Virginia Beach, Virginia. Men of the newly formed SEAL Teams were trained in such unconventional areas as hand-to-hand combat, high-altitude parachuting, demolitions, and foreign languages. The SEALs attended Underwater Demolition Team replacement training and they spent some time training in UDTs. Upon making it to a SEAL team, they would undergo a SEAL Basic Indoctrination (SBI) training class at Camp Kerry in the Cuyamaca Mountains. After SBI training class, they would enter a platoon and conduct platoon training.[NEWLINE][NEWLINE]The Central Intelligence Agency began using SEALs in covert operations in early 1963. The SEALs were involved in the CIA sponsored Phoenix Program where it targeted key North Vietnamese Army personnel and Vietcong sympathizers for capture and assassination.[NEWLINE][NEWLINE]"SEAL" is always capitalized in reference to members of the Naval Special Warfare community. The acronym is derived from their capacity to operate at sea, in the air, and on land. In the War on Terror, SEALs have been utilized almost exclusively for land-based operations, including Direct Action, Hostage Rescue, Counter Terrorism, Special Reconnaissance, unconventional warfare, manhunts and foreign internal defense operations. SEALs are male members of the United States Navy. An exchange program with the Coast Guard, which graduated three Coast Guardsmen as SEALs, was suspended in 2011.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/United_States_Navy_SEALs</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

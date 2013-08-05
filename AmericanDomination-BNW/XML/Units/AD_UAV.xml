@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_UAV</Type>
+			<Description>TXT_KEY_UNIT_UAV</Description>
+			<DefaultUnit>UNIT_UAV</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_UAV</Class>
+			<Type>UNIT_UAV</Type>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+			<Combat>14</Combat>
+			<RangedCombat>20</RangedCombat>
+			<Cost>300</Cost>			
+			<Moves>4</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_UAV</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_UAV_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_UAV_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_UAV</Help>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_UAV</UnitArtInfo>
+			<UnitFlagAtlas>UNITS_UAV_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_UNIT_ATLAS_UAV</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_UAV</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UAV</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_UAV</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UAV</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UAV</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UAV</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_UAV</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UAV</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UAV</UnitType>
+			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UAV</UnitType>
+			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UAV</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UAV</UnitType>
+			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_UAV">
+			<Text>UAV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_UAV">
+			<Text>Modern Recon Unit that has more range and strength than the Scout. It is capable of hovering over mountains, but takes damage if ending its turn on one.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_UAV_STRATEGY">
+			<Text>This modern unit can attack but is weak. However, it can move over all terrain types including mountains as if they were clear, but it must embark to cross water. Use it for world exploration.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_UAV_TEXT">
+			<Text>An unmanned aerial vehicle (UAV), colloquially known as a drone, is an aircraft without a human pilot on board. Its flight is controlled either autonomously by computers in the vehicle, or under the remote control of a pilot on the ground or in another vehicle.[NEWLINE][NEWLINE]There are a wide variety of UAV shapes, sizes, configurations, and characteristics. Historically, UAVs were simple remotely piloted aircraft, but autonomous control is increasingly being employed.[NEWLINE][NEWLINE]They are deployed predominantly for military and special operation applications, but also used in a small but growing number of civil applications, such as policing, firefighting, and nonmilitary security work, such as surveillance of pipelines. UAVs are often preferred for missions that are too "dull, dirty, and dangerous" for manned aircraft.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Unmanned_aerial_vehicle</Text>
+		</Row>		
+	</Language_en_US>
+</GameData>

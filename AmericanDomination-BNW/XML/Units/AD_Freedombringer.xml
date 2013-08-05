@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_MECH</Class>
+			<Type>UNIT_AMERICAN_MECH</Type>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<Combat>200</Combat>
+			<Cost>600</Cost>
+			<Moves>8</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_MECH</Description>			
+			<Strategy>TXT_KEY_UNIT_AMERICAN_MECH_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_AMERICAN_MECH</Help>
+			<Civilopedia>TXT_KEY_UNIT_AMERICAN_MECH_TEXT</Civilopedia>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_MECH</UnitArtInfo>
+			<UnitFlagIconOffset>83</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>36</PortraitIndex>
+			<MoveRate>ROBOT</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<PromotionType>PROMOTION_AMERICAN_INGENUITY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<PromotionType>PROMOTION_AMERICAN_DOMINATION</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<PromotionType>PROMOTION_BLITZ</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<PromotionType>PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<PromotionType>PROMOTION_CARGO_III</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MECH">
+			<Text>Freedombringer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MECH_STRATEGY">
+			<Text>The Freedombringer is an American Unique Unit, replacing the Giant Death Robot. The Freedombringer is the pinnacle of American Domination. Uranium-powered, and injected with some good old fashioned American kick-ass, the Freedombringer is the most powerful land unit in the game. It can attack twice per turn, and move after attacking. The Freedombringer can also carry and deploy three Tomahawk and Trident II Nuclear Missiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AMERICAN_MECH">
+			<Text>America, f*ck yeah!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MECH_TEXT">
+			<Text>Each of the Freedombringer mechs is named after one of the signers of the Declaration of Independence:[NEWLINE]John Adams, Samuel Adams, Josiah Bartlett, Carter Braxton, Charles Carroll, Samuel Chase, Abraham Clark, George Clymer, William Ellery, William Floyd, Benjamin Franklin, Elbridge Gerry, Button Gwinnett, Lyman Hall, John Hancock, Benjamin Harrison, John Hart, Joseph Hewes, Thomas Heyward, Jr., William Hooper, Stephen Hopkins, Francis Hopkinson, Samuel Huntington, Thomas Jefferson, Francis Lightfoot Lee, Richard Henry Lee, Francis Lewis, Philip Livingston, Thomas Lynch, Jr., Thomas McKean, Arthur Middleton, Lewis Morris, Robert Morris, John Morton, Thomas Nelson, Jr., William Paca, Robert Treat Paine, John Penn, George Read, Caesar Rodney, George Ross, Benjamin Rush, Edward Rutledge, Roger Sherman, James Smith, Richard Stockton, Thomas Stone, George Taylor, Charles Thomson, Matthew Thornton, George Walton, William Whipple, William Williams, James Wilson, John Witherspoon, Oliver Wolcott, George Wythe.</Text>
+		</Row>
+	</Language_en_US>
+	<!-- Signers of the Declaration of Independence -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>John Adams</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Samuel Adams</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Josiah Bartlett</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Carter Braxton</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Charles Carroll</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Samuel Chase</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Abraham Clark</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>George Clymer</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>William Ellery</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>William Floyd</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Benjamin Franklin</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Elbridge Gerry</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Button Gwinnett</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Lyman Hall</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>John Hancock</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Benjamin Harrison</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>John Hart</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Joseph Hewes</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Thomas Heyward Jr.</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>William Hooper</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Stephen Hopkins</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Francis Hopkinson</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Samuel Huntington</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Thomas Jefferson</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Francis Lightfoot Lee</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Richard Henry Lee</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Francis Lewis</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Philip Livingston</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Thomas Lynch Jr.</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Thomas McKean</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Arthur Middleton</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Lewis Morris</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Robert Morris</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>John Morton</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Thomas Nelson Jr.</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>William Paca</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Robert Treat Paine</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>John Penn</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>George Read</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Caesar Rodney</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>George Ross</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Benjamin Rush</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Edward Rutledge</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Roger Sherman</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>James Smith</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Richard Stockton</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Thomas Stone</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>George Taylor</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Charles Thomson</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Matthew Thornton</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>George Walton</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>William Whipple</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>William Williams</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>James Wilson</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>John Witherspoon</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>Oliver Wolcott</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<UniqueName>George Wythe</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+</GameData>

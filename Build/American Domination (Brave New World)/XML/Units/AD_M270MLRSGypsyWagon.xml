@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_ROCKET_ARTILLERY</Class>
+			<Type>UNIT_AMERICAN_ROCKET_ARTILLERY</Type>
+			<PrereqTech>TECH_ROCKETRY</PrereqTech>
+			<Combat>60</Combat>
+			<RangedCombat>80</RangedCombat>
+			<Cost>500</Cost>
+			<Moves>3</Moves>
+			<Range>4</Range>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_ROCKET_ARTILLERY</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_MOBILEROCKETARTILLERY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_ROCKET_ARTILLERY_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ROCKET_ARTILLERY</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_ROCKET_ARTILLERY</UnitArtInfo>
+			<UnitFlagIconOffset>72</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>25</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ROCKET_ARTILLERY</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ROCKET_ARTILLERY</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ROCKET_ARTILLERY</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ROCKET_ARTILLERY</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ROCKET_ARTILLERY</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ROCKET_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ROCKET_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ROCKET_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_VOLLEY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ROCKET_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ROCKET_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ROCKET_ARTILLERY</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_ROCKET_ARTILLERY">
+			<Text>M270 Gypsy Wagon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_ROCKET_ARTILLERY_STRATEGY">
+			<Text>The M270 Gypsy Wagon is an American Unique Unit, replacing Rocket Artillery. The M270 Gypsy Wagon is an extremely powerful siege weapon, far superior to the standard rocket artillery. The M270 Gypsy Wagon does not need to set up before firing, making it much quicker than earlier guns. It can use indirect fire to attack targets it cannot see (as long as other friendly units can see them). Like all artillery it is vulnerable to infantry or armor attack, and should be defended by appropriate units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_MOBILEROCKETARTILLERY_TEXT">
+			<Text>The M270 Multiple Launch Rocket System (M270 MLRS) is an armored, self-propelled, multiple rocket launcher; a type of rocket artillery.[NEWLINE][NEWLINE]Since the first M270s were delivered to the U.S. Army in 1983, the MLRS has been adopted by several NATO countries. Some 1,300 M270 systems have been manufactured in the United States and in Europe, along with more than 700,000 rockets. The production of the M270 ended in 2003, when a last batch was delivered to the Egyptian army.[NEWLINE][NEWLINE]The weapon can fire guided and unguided projectiles up to 42 km (26 mi). Firing ballistic missiles, (such as the U.S. Army Tactical Missile System—ATACMS), it can hit targets 300 km (190 mi) away; the warhead in such shots reaches an altitude of about 50 km (164,000 ft). The M270 can be used in shoot-and-scoot tactics, firing its rockets rapidly, then moving away to avoid counter-battery fire.[NEWLINE][NEWLINE]MLRS was developed jointly by the United Kingdom, United States, Germany, and France. It was developed from the older General Support Rocket System (GSRS). The M270 MLRS weapons system is collectively known as the M270 MLRS Self-propelled Loader/Launcher (SPLL). The SPLL is composed of 3 primary subsystems: the M269 Loader Launcher Module (LLM), which also houses the electronic Fire Control System, is mated to the M993 Carrier Vehicle. The M993 is a derivative of the Bradley Fighting Vehicle chassis.[NEWLINE][NEWLINE]The rockets and ATACMS missiles are contained in interchangeable pods. Each pod contains six standard rockets or one guided ATACMS missile; the two types cannot be mixed. The LLM can hold two pods at a time, which are hand-loaded using an integrated winch system. All twelve rockets or two ATACMS missiles can be fired in under a minute. One launcher firing twelve rockets can completely blanket one square kilometer with submunitions. For this reason, the MLRS is sometimes referred to as the "Grid Square Removal System"[3] (metric maps are usually divided up into 1 km grids). The U.S. Army is currently working on developing and fielding unitary (one large warhead instead of submunitions) rocket and ATACMS variants, as well as a guided rocket.[NEWLINE][NEWLINE]US military operators refer to the M270 as "the commander's personal shotgun" or as "battlefield buckshot." It is also commonly referred to as the "Gypsy Wagon", because crews store additional equipment such as camouflage netting, cots, coolers, and personal items on top of the vehicle as the launcher itself lacks adequate storage space for the crew. Within the British military a common nickname is "Grid Square Removal System", a play on the initialism GSRS (from the older General Support Rocket System). With the adoption of the new M30 GPS guided rocket it is now being referred to as the "70 kilometer sniper rifle." During the 1991 Gulf War, the Iraqis referred to the small M77 submunitions rockets as the "Steel Rain."[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/M270_Multiple_Launch_Rocket_System</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

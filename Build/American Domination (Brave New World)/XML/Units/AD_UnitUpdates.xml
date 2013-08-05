@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Update>
+			<Where Type="UNIT_AMERICAN_MINUTEMAN"/>
+			<Set Combat="26"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_AMERICAN_B17"/>
+			<Set Range="12"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_AMERICAN_B17"/>
+			<Set Description="TXT_KEY_UNIT_AMERICAN_B17_NEW"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_AMERICAN_B17"/>
+			<Set Strategy="TXT_KEY_UNIT_AMERICAN_B17_STRATEGY_NEW"/>
+		</Update>
+	</Units>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_B17_NEW">
+			<Text>B-17 Flying Fortress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_B17_STRATEGY_NEW">
+			<Text>The B-17 Flying Fortress is an American Unique Unit, replacing the Bomber. It is similar to the Bomber, but it is more difficult for enemy anti-aircraft and fighters to target, and has a longer range of 12. The B-17 also receives a bonus when attacking enemy cities. See the rules on Aircraft for more details.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

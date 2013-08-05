@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<ArtDefine_UnitMemberInfos>
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_SUPER_CARRIER"/>
+			<Set>
+				<!-- IMPORTANT NOTE: Only ONE of the following should be uncommented - the default is Porte Avions 2 -->
+				<!-- Porte Avions 2 (see http://forums.civfanatics.com/showpost.php?p=10791977&postcount=10) -->
+				<Model>Porte-Avions_2.fxsxml</Model>
+
+				<!-- Queen Elizabeth Class (see http://forums.civfanatics.com/showpost.php?p=10791977&postcount=10) -->
+				<!-- Model>Queen_Elizabeth_Class_Carrier.fxsxml</Model -->
+
+				<!-- A larger version of the standard carrier -->
+				<!-- Model>Carrier.fxsxml</Model -->
+			</Set>
+		</Update>
+	</ArtDefine_UnitMemberInfos>
+</GameData>

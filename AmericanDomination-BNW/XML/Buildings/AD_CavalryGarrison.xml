@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CAVALRY_GARRISON</Type>
+			<BuildingClass>BUILDINGCLASS_STABLE</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_CAVALRY_GARRISON</Description>
+			<Help>TXT_KEY_BUILDING_CAVALRY_GARRISON_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_CAVALRY_GARRISON_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_BUILDING_CAVALRY_GARRISON_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_BUILDING_STABLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>UB_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>26</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_CAVALRY_GARRISON</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CAVALRY_GARRISON</BuildingType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CAVALRY_GARRISON</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_CAVALRY_GARRISON</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CAVALRY_GARRISON</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_CAVALRY_GARRISON</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+	<Building_UnitCombatFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_CAVALRY_GARRISON</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_UnitCombatFreeExperiences>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_CAVALRY_GARRISON">
+			<Text>Cavalry Garrison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAVALRY_GARRISON_HELP">
+			<Text>+15 XP for Mounted Units. +15% [ICON_PRODUCTION] Production when building Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one [ICON_RES_HORSE] Horse resources improved with a Pasture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAVALRY_GARRISON_STRATEGY">
+			<Text>The Cavalry Garrison is the American unique building, replacing the Stables. Like the Stables, the Garrison can only be constructed in a city near to one or more improved horse resources. The Garrison increases the speed of production of mounted units and also grants them initial experience.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAVALRY_GARRISON_TEXT">
+			<Text>The United States Cavalry was the designation of the mounted force of the United States Army from the late 18th to the early 20th century.  Originally designated as United States Dragoons, the forces were patterned after cavalry units employed during the Revolutionary War. The traditions of the U.S. Cavalry originated with the horse-mounted force which played an important role in extending United States governance into the Western United States after the American Civil War.[NEWLINE][NEWLINE]Fort Riley, a famous cavalry garrison, is named in honor of Major General Bennett C. Riley who led the first military escort along the Santa Fe Trail. The fort was established in 1853 as a military post to protect the movement of people and trade over the Oregon, California, and Santa Fe trails. In the years after the Civil War, Fort Riley served as a major United States Cavalry post and school for cavalry tactics and practice. The post was a base for skirmishes with Native Americans after the Civil War ended in 1865, during which time George Custer was stationed at the fort.</Text>
+		</Row>
+	</Language_en_US>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>UB_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ART/UBIconAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>6</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UB_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ART/UBIconAtlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>6</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UB_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ART/UBIconAtlas64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>6</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UB_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ART/UBIconAtlas45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>6</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

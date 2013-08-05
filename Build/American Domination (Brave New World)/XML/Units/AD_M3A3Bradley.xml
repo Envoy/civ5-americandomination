@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_MECHANIZED_INFANTRY</Class>
+			<Type>UNIT_AMERICAN_MECHANIZED_INFANTRY</Type>
+			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
+			<Combat>115</Combat>
+			<Cost>375</Cost>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_MECHANIZED_INFANTRY</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_MECHANIZED_INFANTRYY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_MECHANIZED_INFANTRY_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_MECHANIZED_INFANTRY</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>7</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_MECHANIZED_INFANTRY</UnitArtInfo>
+			<UnitFlagIconOffset>73</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>26</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECHANIZED_INFANTRY</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECHANIZED_INFANTRY</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECHANIZED_INFANTRY</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECHANIZED_INFANTRY</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECHANIZED_INFANTRY</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECHANIZED_INFANTRY</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECHANIZED_INFANTRY</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECHANIZED_INFANTRY</UnitType>
+			<PromotionType>PROMOTION_MEDIC</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MECHANIZED_INFANTRY">
+			<Text>M3A3 Bradley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MECHANIZED_INFANTRY_STRATEGY">
+			<Text>The M3A3 Bradley is an American Unique Unit, replacing Mechanized Infantry. The M3A3 is stronger and faster than regular Infantry. Although fast, the M3A3 Bradley cannot move after combat like Tanks; their primary responsibility is, as always, to take and hold the ground.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_MECHANIZED_INFANTRYY_TEXT">
+			<Text>The M3 Bradley Cavalry Fighting Vehicle (CFV) is an American tracked armored reconnaissance vehicle manufactured by BAE Systems Land and Armaments (formerly United Defense) based on the Bradley Fighting Vehicle family. The M3 CFV is used by heavy armored cavalry units in the U.S. Army.[NEWLINE][NEWLINE]M3A3 model of the Bradley uses enhanced information and communication equipment, a central processing unit, and information displays for the vehicle commander and squad leader. The M3A3 is compatible with the intervehicular communication system of the M1A2 Abrams tank and AH-64D Apache Longbow helicopter. The commander has an independent thermal viewer and a new integrated sight unit called the Improved Bradley Acquisition System (IBAS), which allows automatic gun adjustments, automatic boresighting, and tracking of dual targets. The roof is reinforced with titanium armor. Many M3A3s were converted from M3A2s.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/M3_Bradley</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

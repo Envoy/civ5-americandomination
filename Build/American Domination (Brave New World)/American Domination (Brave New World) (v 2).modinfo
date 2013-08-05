@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8d11df18-49c1-444c-8bcd-d41fc7c95909" version="2">
+  <Properties>
+    <Name>American Domination (Brave New World)</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>This mod makes the American civilization EXTREMELY overpowered, and fun to play.</Teaser>
+    <Description>This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 18 new units, 11 new buldings, one new resource, and one new improvement! Enjoy!
+
+[NEWLINE]
+[NEWLINE]
+
+Requires Brave New World.
+
+[NEWLINE]
+[NEWLINE]
+
+Civilization changes (America):
+[NEWLINE][ICON_BULLET]United Patriotism (Manifest Destiny): The empire enters a double-length [ICON_GOLDEN_AGE] Golden Age when war is declared upon it. All cities in the empire celebrate "We Love the King Day" when any war is ended..
+[NEWLINE][ICON_BULLET]Starts with Agriculture, Pottery, Animal Husbandry, Archery and Mining technologies
+[NEWLINE][ICON_BULLET]Starts with one Scout unit
+[NEWLINE][ICON_BULLET]Starts with two Settler units
+[NEWLINE][ICON_BULLET]Starts with two Worker units
+
+[NEWLINE]
+[NEWLINE]
+
+New Units (all civs):
+[NEWLINE][ICON_BULLET]Supercarrier
+[NEWLINE][ICON_BULLET]UAV
+
+[NEWLINE]
+[NEWLINE]
+
+New Units (America):
+[NEWLINE][ICON_BULLET]Pioneer (Settler)
+[NEWLINE][ICON_BULLET]Migrant Worker (Worker)
+[NEWLINE][ICON_BULLET]Native Scout (Scout)
+[NEWLINE][ICON_BULLET]Monitor-class Ironclad (Ironclad)
+[NEWLINE][ICON_BULLET]Navy SEAL (Paratrooper)
+[NEWLINE][ICON_BULLET]AH-64D Apache Longbow (Helicopter Gunship)
+[NEWLINE][ICON_BULLET]M270 Gypsy Wagon (Rocket Artillery)
+[NEWLINE][ICON_BULLET]Tomahawk Missile (Guided Missile)
+[NEWLINE][ICON_BULLET]Trident II Nuclear Missile (Nuclear Missile)
+[NEWLINE][ICON_BULLET]M3A3 Bradley (Mechanized Infantry)
+[NEWLINE][ICON_BULLET]M1A2 Abrams (Modern Armor)
+[NEWLINE][ICON_BULLET]Ohio-class Nuclear Submarine (Nuclear Submarine)
+[NEWLINE][ICON_BULLET]MQ-9 Reaper (UAV)
+[NEWLINE][ICON_BULLET]Nimitz-class Supercarrier (Supercarrier)
+[NEWLINE][ICON_BULLET]Ticonderoga-class Missile Cruiser (Missile Cruiser)
+[NEWLINE][ICON_BULLET]F-35 Lightning II (Jet Fighter)
+[NEWLINE][ICON_BULLET]B-2 Spirit (Stealth Bomber)
+[NEWLINE][ICON_BULLET]Freedombringer (Giant Death Robot)
+
+[NEWLINE]
+[NEWLINE]
+
+New Buildings (America):
+[NEWLINE][ICON_BULLET]The White House (Palace)
+[NEWLINE][ICON_BULLET]Pioneer Fort (Walls)
+[NEWLINE][ICON_BULLET]Cavalry Garrison (Stable)
+[NEWLINE][ICON_BULLET]Statehouse (Garden)
+[NEWLINE][ICON_BULLET]Pinkertons (Constabulary)
+[NEWLINE][ICON_BULLET]Meat Packing Plant (Factory)
+[NEWLINE][ICON_BULLET]NYSE (Stock Exchange)
+[NEWLINE][ICON_BULLET]Hilton (Hotel)
+[NEWLINE][ICON_BULLET]U.S. Military Base (Military Base)
+[NEWLINE][ICON_BULLET]Pharmaceutical Lab (Medical Lab)
+[NEWLINE][ICON_BULLET]Fallout Shelter (Bomb Shelter)
+
+[NEWLINE]
+[NEWLINE]
+
+New Resources (America):
+[NEWLINE][ICON_BULLET]Pharmaceuticals
+
+[NEWLINE]
+[NEWLINE]
+
+New Improvements (America):
+[NEWLINE][ICON_BULLET]Hardend Fort (Fort)
+
+[NEWLINE]
+[NEWLINE]
+
+Notes:
+[NEWLINE][ICON_BULLET]There is a bug when setting WLTKD for cities using Lua whereby the banner doesn't always show in the city view screen. Mousing over the food section on the city view screen will correctly show the WLTKD bonus.
+
+[NEWLINE]
+[NEWLINE]
+
+
+Special Thanks:
+[NEWLINE][ICON_BULLET]Thalassicus: Idea for Pioneer Fort (http://civmodding.wordpress.com/vem/leaders/)
+[NEWLINE][ICON_BULLET]William Howard: Idea and art for Supercarrier, Cavalry Garrison
+[NEWLINE][ICON_BULLET]Cookie_Magic: Inclusion of "America Unique Ability Enhanced" mod
+[NEWLINE][ICON_BULLET]firstconsul: Idea for new UA (http://forums.civfanatics.com/showthread.php?t=492561&amp;page=7)[NEWLINE][ICON_BULLET]Sneaks: Customized Notifications (http://forums.civfanatics.com/showthread.php?t=411186)
+[NEWLINE][ICON_BULLET]Ekmek, asioasioasio: UAV unit and art (http://forums.civfanatics.com/showthread.php?t=494209)</Description>
+    <Authors>Envoy (@fourfourhero)</Authors>
+    <SpecialThanks>Thalassicus, William Howard, Cookie_Magic, firstconsul, Sneaks, Ekmek, asioasioasio</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="FC79EA5E09CD77AD8BFF749885AE9918" import="0">AmericanDominationBNWSteam.jpg</File>
+    <File md5="CF959D5E2C19339F077FF17A8ACD2999" import="1">ART/ADIconAtlas128.dds</File>
+    <File md5="E973EF2D433A99F2790EF8889A58FA99" import="1">ART/ADIconAtlas256.dds</File>
+    <File md5="DFD1D60B6B216B33DA46BEEBE156C07F" import="1">ART/ADIconAtlas45.dds</File>
+    <File md5="63EE17F7E4E81F41D4DFDF5DE7CFF38C" import="1">ART/ADIconAtlas64.dds</File>
+    <File md5="6341124C36EA15D76FD0C84529E5C332" import="1">ART/Pharmaceuticals_FontIcon.dds</File>
+    <File md5="5D981621D26EB4AAAA110D189922BC84" import="1">ART/Pharmaceuticals_FontIcon.ggxml</File>
+    <File md5="0467ADC48E67499C4C83FBB7A5763585" import="1">ART/SuperCarrier128.dds</File>
+    <File md5="A5A9B8AEE81CACC1DCAC526A1FE32C5C" import="1">ART/SuperCarrier256.dds</File>
+    <File md5="7CB982598E62FAA7D053211D9B3682B3" import="1">ART/SuperCarrier45.dds</File>
+    <File md5="33B42C65CBA4CEEE5A85899F8BC9D0EE" import="1">ART/SuperCarrier64.dds</File>
+    <File md5="9223C38C6CD32836ABBFE47DF95D8DFC" import="1">ART/SuperCarrier80.dds</File>
+    <File md5="AC3453578BED6A1426DA77457A2B9E9D" import="1">ART/SuperCarrierFlag.dds</File>
+    <File md5="6912808271DD2770F73A647396DD71B7" import="1">ART/SV_SuperCarrier.dds</File>
+    <File md5="0AD731DB66C41CF13E865033EE508E85" import="1">ART/SV_UAV.dds</File>
+    <File md5="827BCAAEAD8C1EC4D48FD70FE034BA6D" import="1">ART/TheWhiteHouse128.dds</File>
+    <File md5="CC49241B03B0F49215705354CEDFF824" import="1">ART/TheWhiteHouse256.dds</File>
+    <File md5="0C6A847C4AA21C90D7DE8D64A23EA8E5" import="1">ART/TheWhiteHouse45.dds</File>
+    <File md5="C2797A62DF1EE670FAF250EA1B7ED809" import="1">ART/TheWhiteHouse64.dds</File>
+    <File md5="25508B471913335C68040D5530CDA408" import="1">ART/UAV.dds</File>
+    <File md5="F4883E68FD3C96A8EBD0C18DCF6DB79E" import="1">ART/uav.gr2</File>
+    <File md5="FA6D61D0AB7AF957EF09E8CA7DA1D638" import="1">ART/UAVatlas128.dds</File>
+    <File md5="ADF4D54987AC6EC6B9F4654624326FCD" import="1">ART/UAVatlas256.dds</File>
+    <File md5="E55DE3DE2A81BF86E8A8E37F5FF314FF" import="1">ART/UAVatlas32.dds</File>
+    <File md5="7763F0960003B5A0568707C423FE73D8" import="1">ART/UAVatlas45.dds</File>
+    <File md5="C60F3988BEF7B401DF6FA37A88AA0E4B" import="1">ART/UAVatlas64.dds</File>
+    <File md5="38224851BE5EE8A2D30F6199C103A3D7" import="1">ART/UAVatlas80.dds</File>
+    <File md5="E67EC2B0DCD3D94063F3720CBE02018A" import="1">ART/UAV_SREF.dds</File>
+    <File md5="6E277556AE29F62F5507CFCAE3B1BED2" import="1">ART/UBIconAtlas128.dds</File>
+    <File md5="372742D9B878CBDBFF7CEF2990D67CDE" import="1">ART/UBIconAtlas256.dds</File>
+    <File md5="8F7187881A128AEF210490CF507EF64C" import="1">ART/UBIconAtlas45.dds</File>
+    <File md5="3C8118EF5C4AA1141CD8A15CDC1255B9" import="1">ART/UBIconAtlas64.dds</File>
+    <File md5="F5585C944B4A629215E3070FB6A89EF2" import="0">Lua/AmericanDomination.lua</File>
+    <File md5="155E43834C7767803378678E974CD312" import="0">Lua/CustomNotifications/ClassUtils.lua</File>
+    <File md5="406E93642C7B0BE3EEF66DD114CE0C74" import="0">Lua/CustomNotifications/CustomNotification.lua</File>
+    <File md5="2F2947CD72FC50AF9A7FBC76464BAF22" import="0">Lua/CustomNotifications/NotificationPanel.lua</File>
+    <File md5="78F37473BBDCDC4C98D16F5434B209E6" import="1">Lua/SaveUtils.lua</File>
+    <File md5="BA0D234DE017F5CEB6DEF37CE7DFE384" import="1">MODEL/EditedAnimations/edited_aim_ms_attack_city_to_run.dge</File>
+    <File md5="75D8FBC3A2C4D56B1089F20A2E9D9DA1" import="1">MODEL/EditedAnimations/edited_aim_ms_attack_to_run_graph.dge</File>
+    <File md5="82C3CE94F7827159DEA80CCF8AAF5D9E" import="1">MODEL/EditedAnimations/edited_aim_ms_bombard_defend_loop_graph.dge</File>
+    <File md5="C3686411D2E96A715267F9A5C72A5EB1" import="1">MODEL/EditedAnimations/edited_aim_ms_combat_ready_graph.dge</File>
+    <File md5="FE5B902745DEE0860ECEE5BA421D141F" import="1">MODEL/EditedAnimations/edited_aim_ms_death_final_graph.dge</File>
+    <File md5="21659FCED7A08D6FB464A693D0E82597" import="1">MODEL/EditedAnimations/edited_aim_ms_death_graph.dge</File>
+    <File md5="B66FF4B10706BE666A916B917D14AC83" import="1">MODEL/EditedAnimations/edited_aim_ms_enter_bombard_defend_graph.dge</File>
+    <File md5="9B18015ACB470CD66C3294FDA203C27E" import="1">MODEL/EditedAnimations/edited_aim_ms_enter_combat_ready_graph.dge</File>
+    <File md5="FD1B5EABA624344B944CD37BD71DE110" import="1">MODEL/EditedAnimations/edited_aim_ms_enter_fortify.dge</File>
+    <File md5="04680D47D3519A5FFB950F1147D7B1D4" import="1">MODEL/EditedAnimations/edited_aim_ms_fidgets_graph.dge</File>
+    <File md5="327CB90C3BCF5BAC71F77DA677997631" import="1">MODEL/EditedAnimations/edited_aim_ms_fortify_fidget_graph.dge</File>
+    <File md5="998F9D5F9FCAFE31E97022C5C50C67E8" import="1">MODEL/EditedAnimations/edited_aim_ms_fortify_graph.dge</File>
+    <File md5="39370F05801D7D017D605CE224EE11E7" import="1">MODEL/EditedAnimations/edited_aim_ms_fortify_leave_graph.dge</File>
+    <File md5="EF3E7C919600B18CDC0D6F1BCDD45F64" import="1">MODEL/EditedAnimations/edited_aim_ms_idle_graph.dge</File>
+    <File md5="7AAA31587E2E15A0B887A31C861D4B45" import="1">MODEL/EditedAnimations/edited_aim_ms_leave_bombard_defend_trans_idle_a_graph.dge</File>
+    <File md5="4BB9881AAB8B9F3571AA787BB89B4FF1" import="1">MODEL/EditedAnimations/edited_aim_ms_leave_combat_ready.dge</File>
+    <File md5="E538938BAD81B88082C8DF076514653E" import="1">MODEL/EditedAnimations/edited_aim_ms_modern_ship_attacks.dge</File>
+    <File md5="DBFC96AE4406957395EC439CEFF8584A" import="1">MODEL/EditedAnimations/edited_aim_ms_running_loop.dge</File>
+    <File md5="C017AA3F2D83AAB3B6B939B6418071A3" import="1">MODEL/EditedAnimations/edited_aim_ms_start_running.dge</File>
+    <File md5="34D584D857E6CBA51D87EE2FD6950EC6" import="1">MODEL/EditedAnimations/edited_aim_ms_stop_running.dge</File>
+    <File md5="500F6DEDBDB767CAE8C964DBEE647459" import="1">MODEL/EditedAnimations/edited_aim_ms_transitions_for_idles.dge</File>
+    <File md5="75C5BA4CEC139C9EAFA47AE912EAB3EC" import="1">MODEL/EditedAnimations/edited_modern_ship_aim_state_01.fsmxml</File>
+    <File md5="5B811AF5596286D7B6DAD0FE8E8FA53B" import="0">MODEL/edited_fx_triggers_jetfighter.ftsxml</File>
+    <File md5="90B5EF09CBBAABB76424BBE56E7B8FBC" import="1">MODEL/Porte-Avions_2.dds</File>
+    <File md5="13973890B889100C55B8BBD2F386E8A4" import="1">MODEL/Porte-Avions_2.fxsxml</File>
+    <File md5="9D6BBF89E5155FDEB652EABB37779FBF" import="1">MODEL/Porte-Avions_2.gr2</File>
+    <File md5="46A546DB98F18A7DB65C259E05B20E22" import="1">MODEL/Porte-Avions_2_gloss.dds</File>
+    <File md5="1458BA4AD2D8AAE0F1BBEB0E2C7EC198" import="1">MODEL/Queen_Elizabeth_Class_Carrier.dds</File>
+    <File md5="D969F01BACEC618B4DB4954F012B448F" import="1">MODEL/Queen_Elizabeth_Class_Carrier.fxsxml</File>
+    <File md5="B4AA996980CDEC1B592C039166C30B4E" import="1">MODEL/Queen_Elizabeth_Class_Carrier.gr2</File>
+    <File md5="4B27E46F131D3A67BE91DFFBA6D6524D" import="1">MODEL/Queen_Elizabeth_Class_Carrier_gloss.dds</File>
+    <File md5="90DF67F1E343BB93D85AFED78C12E1F2" import="1">MODEL/UAV.fxsxml</File>
+    <File md5="0ED0CA8A2BACD29729DA0D46D18D5F3F" import="1">UI/AmericanDomination.xml</File>
+    <File md5="A197D24BED2AB20C5C732861FE63D326" import="0">XML/Buildings/AD_CavalryGarrison.xml</File>
+    <File md5="AA7182437C0594F19B9DCC6947D3FCFB" import="0">XML/Buildings/AD_FalloutShelter.xml</File>
+    <File md5="6E1BDCFD46C6F2FDA2808910930D5917" import="0">XML/Buildings/AD_Hilton.xml</File>
+    <File md5="DA47DCF1931A4F089261FEFEB433884B" import="0">XML/Buildings/AD_MeatPackingPlant.xml</File>
+    <File md5="A940F6E50AF22C18CD2D8BECCC900F95" import="0">XML/Buildings/AD_NYSE.xml</File>
+    <File md5="52AB09FF932228257C1760353E41A438" import="0">XML/Buildings/AD_PharmaLab.xml</File>
+    <File md5="ED2F4A6B371838BCA3F4115229489C80" import="0">XML/Buildings/AD_Pinkertons.xml</File>
+    <File md5="96B82D27DC1E0F36EFD692657D4D8677" import="0">XML/Buildings/AD_PioneerFort.xml</File>
+    <File md5="DA07C7E54F1D686D40B3A2B9839A4488" import="0">XML/Buildings/AD_Statehouse.xml</File>
+    <File md5="EB711A0A781E486C5722D08C1A62B82B" import="0">XML/Buildings/AD_USMilitaryBase.xml</File>
+    <File md5="ED4C0662C4958270DF9E8DC9D8BD832F" import="0">XML/Buildings/AD_WhiteHouse.xml</File>
+    <File md5="5D9D99269C9B9D9DAA87C86711D2E945" import="0">XML/Civilizations/AD_Civilizations.xml</File>
+    <File md5="8B182AFF574BDE220D09DA0F4104904A" import="0">XML/Civilizations/AD_Traits.xml</File>
+    <File md5="5B6020E2B1418BA8CF69524B3F51D2DE" import="0">XML/Terrain/AD_Improvements.xml</File>
+    <File md5="A5C445F60BEDE61B03464682DBA9B709" import="0">XML/Units/AD_AH64DApacheLongbow.xml</File>
+    <File md5="39776CB13693530C5A6307597176F352" import="0">XML/Units/AD_B2Spirit.xml</File>
+    <File md5="097819E5346A756BDE77F3C600581FE1" import="0">XML/Units/AD_F35LightningII.xml</File>
+    <File md5="A1D89C467BC6F43FFAFEDF5C5F54542B" import="0">XML/Units/AD_Freedombringer.xml</File>
+    <File md5="FEB89FB7F41D70573A67B53DC94D2C10" import="0">XML/Units/AD_M1A2Abrams.xml</File>
+    <File md5="74C2E5D32BF7DCD2392B565AAD468AB7" import="0">XML/Units/AD_M270MLRSGypsyWagon.xml</File>
+    <File md5="979298784A340FABBC1CEC1E76125368" import="0">XML/Units/AD_M3A3Bradley.xml</File>
+    <File md5="D705CB2EF8FC03BDBE3167725386171D" import="0">XML/Units/AD_MigrantWorker.xml</File>
+    <File md5="0069286D2DC5AB2D2FE729E3C2AC6633" import="0">XML/Units/AD_MonitorClassIronclad.xml</File>
+    <File md5="8F238713CC1979CB5DFEEAC81B37481D" import="0">XML/Units/AD_MQ9Reaper.xml</File>
+    <File md5="196C1DF6D8C297A4592D72A2C2399B23" import="0">XML/Units/AD_NativeAmericanScout.xml</File>
+    <File md5="AD7729A62A5ABC0B0C111E2932F51888" import="0">XML/Units/AD_NavySEAL.xml</File>
+    <File md5="734828B1C414A92E23511D93E119C0FD" import="0">XML/Units/AD_NimitzClassSupercarrier.xml</File>
+    <File md5="8346A11BD195EF39684F127E5F66CB28" import="0">XML/Units/AD_OhioClassNuclearSubmarine.xml</File>
+    <File md5="732F921E39E7A0725FC815AB9CDD0C08" import="0">XML/Units/AD_Pioneer.xml</File>
+    <File md5="F1DA3CD7F1FF1343249F8A06E7765DD3" import="0">XML/Units/AD_Supercarrier.xml</File>
+    <File md5="FFD5F4915DDB0D11909E35045CF27618" import="0">XML/Units/AD_Supercarrier_Art.xml</File>
+    <File md5="B7B8613987DCD2880F45820D9C4BE677" import="0">XML/Units/AD_Supercarrier_Icons.xml</File>
+    <File md5="0115D15E6F0EF19B90986CC1B710AEED" import="0">XML/Units/AD_Supercarrier_Model.xml</File>
+    <File md5="13308919A0B45E2B95CB116617AFB693" import="0">XML/Units/AD_TiconderogaClassMissileCruiser.xml</File>
+    <File md5="3C0A8BD579DF0603DA56A8C80AD3C20B" import="0">XML/Units/AD_TomahawkMissile.xml</File>
+    <File md5="EEB846C02DA058FF5B6B6FA5798FEFEB" import="0">XML/Units/AD_TridentIINuclearMissile.xml</File>
+    <File md5="64E1C538E64F740823B11930AA6B8EBF" import="0">XML/Units/AD_UAV.xml</File>
+    <File md5="271C29E900D49BF0BE45BA15E0AFBDD9" import="0">XML/Units/AD_UAV_Art.xml</File>
+    <File md5="8370266D65270940495642F1C98F3ADF" import="0">XML/Units/AD_UAV_Icons.xml</File>
+    <File md5="56DE53AE6122F4FF2225172FA6C5EED4" import="0">XML/Units/AD_UnitPromotions.xml</File>
+    <File md5="F1D1E4B9C83316536FD099C3A18D6188" import="0">XML/Units/AD_UnitUpdates.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Civilizations/AD_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/AD_Traits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/AD_WhiteHouse.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/AD_PioneerFort.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/AD_CavalryGarrison.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/AD_Statehouse.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/AD_Pinkertons.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/AD_MeatPackingPlant.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/AD_NYSE.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/AD_USMilitaryBase.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/AD_Hilton.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/AD_PharmaLab.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/AD_FalloutShelter.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_UnitUpdates.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_Pioneer.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_MigrantWorker.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_NativeAmericanScout.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_MonitorClassIronclad.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_NavySEAL.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_AH64DApacheLongbow.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_M270MLRSGypsyWagon.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_TomahawkMissile.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_TridentIINuclearMissile.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_M3A3Bradley.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_M1A2Abrams.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_OhioClassNuclearSubmarine.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_TiconderogaClassMissileCruiser.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_F35LightningII.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_B2Spirit.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_Freedombringer.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_Supercarrier.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_Supercarrier_Art.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_Supercarrier_Icons.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_Supercarrier_Model.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_UAV.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_UAV_Art.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_UAV_Icons.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_MQ9Reaper.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_NimitzClassSupercarrier.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/AD_Improvements.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/AmericanDomination.lua">
+      <Name>AmericanDomination</Name>
+      <Description>AmericanDomination</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_JET_FIGHTER</Class>
+			<Type>UNIT_AMERICAN_JET_FIGHTER</Type>
+			<PrereqTech>TECH_LASERS</PrereqTech>
+			<RangedCombat>95</RangedCombat>
+			<Cost>500</Cost>
+			<Moves>4</Moves>
+			<Immobile>true</Immobile>
+			<Range>20</Range>
+			<AirInterceptRange>20</AirInterceptRange>
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_JET_FIGHTER</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_JETFIGHTER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_JET_FIGHTER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_JET_FIGHTER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_JET_FIGHTER</UnitArtInfo>
+			<UnitFlagIconOffset>78</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>31</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+	</Units>
+	<Unit_FreePromotions>
+		<!-- F-355 Lightning II -->
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_ANTI_FIGHTER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_SORTIE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_JET_FIGHTER">
+			<Text>F-35 Lightning II</Text>
+		</Row>		
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_JET_FIGHTER_STRATEGY">
+			<Text>The F-35 Lightning II is an American Unique Unit, replacing the Jet Fighter. The F-35 Lightning II is a powerful air unit. It can be based in any city you own or aboard an aircraft carrier. It can move from base to base and can perform "missions" within its range of "20". Use F-355 Lightning IIs to attack enemy aircraft and ground units, to scout enemy positions, and to defend against enemy air attacks. F-355 Lightning IIs are especially effective against enemy helicopters. The F-355 Lightning II has the "air recon" ability, which means that everything within 6 tiles of its starting location is visible at the beginning of the turn. See the rules on Aircraft for more information.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_JETFIGHTER_TEXT">
+			<Text>The Lockheed Martin F-35 Lightning II is a family of single-seat, single-engine, fifth generation multirole fighters under development to perform ground attack, reconnaissance, and air defense missions with stealth capability.[6][7] The F-35 has three main models; the F-35A is a conventional takeoff and landing variant, the F-35B is a short take off and vertical-landing variant, and the F-35C is a carrier-based variant.[NEWLINE][NEWLINE]The F-35 is descended from the X-35, the product of the Joint Strike Fighter (JSF) program. JSF development is being principally funded by the United States, with the United Kingdom and other partner governments providing additional funding. The partner nations are either NATO members or close U.S. allies. It is being designed and built by an aerospace industry team led by Lockheed Martin. The F-35 carried out its first flight on 15 December 2006.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

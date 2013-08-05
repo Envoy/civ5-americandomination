@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_GUIDED_MISSILE</Class>
+			<Type>UNIT_AMERICAN_GUIDED_MISSILE</Type>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+			<RangedCombat>90</RangedCombat>
+			<Cost>200</Cost>
+			<Moves>4</Moves>
+			<Immobile>true</Immobile>
+			<NoMaintenance>true</NoMaintenance>
+			<Range>24</Range>
+			<Special>SPECIALUNIT_MISSILE</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_GUIDED_MISSILE</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_GUIDED_MISSILE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_GUIDED_MISSILE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_GUIDED_MISSILE</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
+			<UnitFlagIconOffset>77</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>30</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+	</Units>
+	<Unit_FreePromotions>		
+		<Row>
+			<UnitType>UNIT_AMERICAN_GUIDED_MISSILE</UnitType>
+			<PromotionType>PROMOTION_EVASION_II</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_GUIDED_MISSILE">
+			<Text>Tomahawk Missile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_GUIDED_MISSILE_STRATEGY">
+			<Text>The Tomahawk Missile is an American Unique Unit, replacing the Guided Missile. The Tomahawk Missile is a one-shot unit which is destroyed when it attacks an enemy target. The Tomahawk Missile may be based in a player-owned friendly city or aboard a nuclear submarine or missile cruiser. They may move from base to base or attack an enemy unit or city with their range of "24". See the rules on Missiles for more information.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_GUIDED_MISSILE_TEXT">
+			<Text>The Tomahawk is a long-range, all-weather, subsonic cruise missile. Introduced by General Dynamics in the 1970s, it was designed as a medium- to long-range, low-altitude missile that could be launched from a surface platform. It has been improved several times and, by way of corporate divestitures and acquisitions, is now made by Raytheon. Some Tomahawks were also manufactured by McDonnell Douglas (now Boeing Defense, Space & Security).[NEWLINE][NEWLINE]The Tomahawk missile family consists of a number of subsonic, jet engine-powered missiles for attacking a variety of surface targets. Although a number of launch platforms have been deployed or envisaged, only sea (both surface ship and submarine) launched variants are currently in service. Tomahawk has a modular design, allowing a wide variety of warhead, guidance and range capabilities.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Tomahawk_(missile)</Text>
+		</Row>
+
+
+	</Language_en_US>
+</GameData>

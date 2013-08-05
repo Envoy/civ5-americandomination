@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Totally intentional that the traits of Manifest Destiny are still active. This is a nice little easter egg. Enjoy! -->
+	<Traits>
+		<Update>
+			<Set FasterAlongRiver="true"/>
+			<Where Type="TRAIT_RIVER_EXPANSION"/>
+		</Update>		
+		<Update>
+			<Set Description="TXT_KEY_TRAIT_UNITED_PATRIOTISM"/>
+			<Where Type="TRAIT_RIVER_EXPANSION"/>
+		</Update>
+		<Update>
+			<Set ShortDescription="TXT_KEY_TRAIT_UNITED_PATRIOTISM_SHORT"/>
+			<Where Type="TRAIT_RIVER_EXPANSION"/>
+		</Update>
+	</Traits>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_UNITED_PATRIOTISM_SHORT">
+			<Text>United Patriotism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_UNITED_PATRIOTISM">
+			<Text>The empire enters a double-length [ICON_GOLDEN_AGE] Golden Age when war is declared upon it. All cities in the empire celebrate "We Love the King Day" when any war is ended.</Text>
+		</Row>
+		<!-- Notifications -->
+		<Row Tag="CNOTIFICATION_UNITED_PATRIOTISM">
+			<Text>American Domination - United Patriotism</Text>
+		</Row>		
+	</Language_en_US>
+</GameData>

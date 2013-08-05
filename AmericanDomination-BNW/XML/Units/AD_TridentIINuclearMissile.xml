@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_NUCLEAR_MISSILE</Class>
+			<Type>UNIT_AMERICAN_NUCLEAR_MISSILE</Type>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+			<Cost>1200</Cost>
+			<Moves>4</Moves>
+			<Immobile>true</Immobile>
+			<Range>36</Range>
+			<Special>SPECIALUNIT_MISSILE</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ICBM</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_NUCLEAR_MISSILE</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_NUCLEARMISSLE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_NUCLEAR_MISSILE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_AMERICAN_NUCLEAR_MISSILE</Help>
+			<ProjectPrereq>PROJECT_MANHATTAN_PROJECT</ProjectPrereq>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<NukeDamageLevel>2</NukeDamageLevel>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_NUCLEAR_MISSILE</UnitArtInfo>
+			<UnitFlagIconOffset>82</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_MISSILE</UnitType>
+			<UnitAIType>UNITAI_ICBM</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>24</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_MISSILE</UnitType>
+			<PromotionType>PROMOTION_EVASION_II</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_MISSILE</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_NUCLEAR_MISSILE">
+			<Text>Trident II Nuclear Missile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AMERICAN_NUCLEAR_MISSILE">
+			<Text>Unleash nuclear destruction upon your foes. Does great damage to Cities and damages any Unit caught in the blast radius.[NEWLINE][NEWLINE]Requires Manhattan Project and one Uranium resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_NUCLEAR_MISSILE_STRATEGY">
+			<Text>The Trident II Nuclear Missile is an American Unique Unit, replacing the Nuclear Missile. The Trident II is an upgraded, more powerful Atomic Bomb, with more range than the standard Nuclear Missile. The Trident II Nuclear Missile can be based in any city you own or aboard a Nuclear Submarine or Missile Cruiser. It can move from base to base or attack a target within its range of "36." When it detonates, a Trident II Nuclear Missile will damage (and possibly destroy) cities and destroy all units within its blast radius of 2 tiles. It is automatically destroyed when it attacks. See the rules on Nuclear Weapons for more details.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_NUCLEARMISSLE_TEXT">
+			<Text>UGM-133 Trident II, or Trident D5 is a submarine-launched ballistic missile, built by Lockheed Martin Space Systems in Sunnyvale, California, and deployed with the US Navy and Royal Navy. It was first deployed in 1990, and is still in service.[NEWLINE][NEWLINE]Trident II was designed to be more sophisticated than Trident I, and have a greater payload capacity. It is accurate enough to be used as a first strike weapon. All three stages of the Trident II are made of graphite epoxy, making the missile much lighter than its predecessor. Trident II missiles are carried by US Ohio class and British Vanguard class submarines. USS Tennessee was the first submarine to be armed with Trident IIs. Trident II missiles are currently carried by fourteen Ohio class, and four Vanguard class SSBNs. There have been 135 consecutive successful test flights of the D5 missile since 1989, with the most recent being from USS Tennessee in February 2012 as the concluding action of US Trident D5 DASO-23. The development contract for Trident II was issued in October 1983. The first Trident II launch occurred in January 1987, and the first submarine launch was attempted by USS Tennessee (SSBN-734, the first D-5 ship of the Ohio class) in March 1989. The launch attempt failed because the plume of water following the missile rose to greater height than expected, resulting in water being in the nozzle when the motor ignited. Once the problem was understood relatively simple changes were very quickly made but the problem delayed the IOC (Initial Operational Capability) of Trident II until March 1990.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/UGM-133_Trident_II</Text>
+		</Row>
+		
+	</Language_en_US>
+
+</GameData>

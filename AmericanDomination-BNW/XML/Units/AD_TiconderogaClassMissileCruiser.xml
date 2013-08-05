@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_MISSILE_CRUISER</Class>
+			<Type>UNIT_AMERICAN_MISSILE_CRUISER</Type>
+			<PrereqTech>TECH_ROBOTICS</PrereqTech>
+			<Combat>120</Combat>
+			<RangedCombat>120</RangedCombat>
+			<Cost>500</Cost>
+			<Moves>8</Moves>
+			<Range>4</Range>
+			<AirInterceptRange>4</AirInterceptRange>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_MISSILE_CRUISER</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_AMERICAN_MISSLECRUISER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_MISSILE_CRUISER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_AMERICAN_MISSILE_CRUISER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_MISSILE_CRUISER</UnitArtInfo>
+			<UnitFlagIconOffset>80</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>33</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MISSILE_CRUISER</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MISSILE_CRUISER</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MISSILE_CRUISER</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MISSILE_CRUISER</UnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+		</Row>
+
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MISSILE_CRUISER</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>23</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MISSILE_CRUISER</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MISSILE_CRUISER</UnitType>
+			<PromotionType>PROMOTION_AMERICAN_INGENUITY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MISSILE_CRUISER</UnitType>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MISSILE_CRUISER</UnitType>
+			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MISSILE_CRUISER</UnitType>
+			<PromotionType>PROMOTION_CARGO_VI</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MISSILE_CRUISER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MISSILE_CRUISER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>	
+		<Row>
+			<UnitType>UNIT_AMERICAN_MISSILE_CRUISER</UnitType>
+			<PromotionType>PROMOTION_SUPPLY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MISSILE_CRUISER</UnitType>
+			<PromotionType>PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MISSILE_CRUISER">
+			<Text>Ticonderoga-class Missile Cruiser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MISSILE_CRUISER_STRATEGY">
+			<Text>The Ticonderoga-class Missile Cruiser is an American Unique Unit, replacing the Missile Cruiser. The Ticonderoga is a modern warship. It's fast and tough, carries a mean Ranged Combat punch and is pretty good at intercepting enemy aircraft. Most importantly, the Ticonderoga-class Missile Cruiser can carry Tomahawk Missiles and Trident II Nuclear Missiles, allowing you to carry these deadly weapons right up to the enemy's shore. Ticonderoga-class Missile Cruisers combined with carriers and submarines make a fiendishly powerful armada.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AMERICAN_MISSILE_CRUISER">
+			<Text>Naval Unit specialized in warding off enemy aircraft. Can hold 6 Missiles. Used to hunt down and destroy enemy Submarines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_MODERN_AMERICAN_MISSLECRUISER_TEXT">
+			<Text>The Ticonderoga class of missile cruisers is a class of warships in the U.S. Navy, first ordered and authorized in FY 1978. The class uses phased-array radar and was originally planned as a class of destroyers. However, the increased combat capability offered by the Aegis combat system and the AN/SPY-1 radar system was used to justify the change of the classification from DDG (guided missile destroyer) to CG (guided missile cruiser) shortly before the keels of Ticonderoga and Yorktown were laid down.[NEWLINE][NEWLINE]Ticonderoga-class guided missile cruisers are multirole warships. Their Mk. 41 VLS can launch Tomahawk cruise missiles to strike strategic targets, as the Navy has in every conflict since the Tomahawk was introduced, or fire long range anti-aircraft Standard Missiles in an anti-aircraft role. Its LAMPS III helicopters and sonar systems allow it to perform anti-submarine missions. Ticonderoga-class ships are designed to be elements of carrier battle groups, amphibious assault groups, as well as performing missions such as interdiction or escort.[NEWLINE][NEWLINE]Of the 27 completed vessels, 19 were built by Ingalls Shipbuilding and eight by Bath Iron Works (BIW). All but one (Thomas S. Gates) of the ships in the class are named for noteworthy events in U.S. military history, and at least twelve; Ticonderoga, Cowpens, Anzio, Yorktown, Valley Forge, Bunker Hill, Antietam, San Jacinto, Lake Champlain, Philippine Sea, Princeton, Monterey, and Vella Gulf; share their names with World War II aircraft carriers.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Ticonderoga-class_cruiser</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

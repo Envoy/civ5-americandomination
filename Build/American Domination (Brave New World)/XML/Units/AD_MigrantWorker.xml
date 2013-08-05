@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_WORKER</Class>
+			<Type>UNIT_AMERICAN_WORKER</Type>
+			<Cost>50</Cost>
+			<Moves>3</Moves>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_WORKER</Description>
+			<Civilopedia>TXT_KEY_CIV5_AMERICAN_WORKER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_WORKER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_AMERICAN_WORKER</Help>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<WorkRate>200</WorkRate>
+			<CombatLimit>0</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT__WORKER</UnitArtInfo>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+		</Row>
+	</Units>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_ROAD</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_RAILROAD</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_FARM</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_MINE</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_TRADING_POST</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_LUMBERMILL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_PASTURE</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_CAMP</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_PLANTATION</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_QUARRY</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_WELL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_AMERICAN_FORT</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_REMOVE_MARSH</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_REMOVE_FOREST</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_SCRUB_FALLOUT</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_REPAIR</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<BuildType>BUILD_REMOVE_ROUTE</BuildType>
+		</Row>
+	</Unit_Builds>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_WORKER">
+			<Text>Migrant Worker</Text>
+		</Row>				
+		<Row Tag="TXT_KEY_UNIT_HELP_AMERICAN_WORKER">
+			<Text>Improves [ICON_FOOD] Food [ICON_PRODUCTION] Production and [ICON_GOLD] Gold by constructing Improvements on map tiles outside of Cities. Cheaper, and twice as fast as a standard Worker.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_WORKER_STRATEGY">
+			<Text>The Migrant Worker is an American Unique Unit, replacing the Worker. This unit constructs roads, railroads and builds improvements like farms and mines. It cannot defend itself, so accompany it with a military unit when it is in dangerous territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_AMERICAN_WORKER_TEXT">
+			<Text>Migrant workers in the United States have come from many different sources, and have been subject to different work experiences. Prior to restrictions against the slave trade, agriculture in the United States was largely dependent on slave labor; contrary to popular myth, slavery, while more prominent in the Southern plantation system, was used in both the North and South as a way of supplying labor to agriculture.[5] However, over the course of the late 18th and 19th centuries, when the slave trade was banned and slaves emancipated, foreign workers began to be imported to fill the demand for cheap labor.[NEWLINE][NEWLINE]There were many sources for cheap labor. Workers from China were the first group to be brought to the United States in large numbers; however, the federal government curtailed immigration from China with the Chinese Exclusion Act of 1882.[6] At the turn of the Twentieth century, workers from Mexico and the Philippines began to enter the United States to work as cheap agricultural laborers. Other sources of cheap agricultural labor during this time were found in unskilled European immigrants, whom, unlike Chinese, Mexican or Filipino laborers, were not brought to the United States to work specifically as cheap laborers, but were hired to work in agriculture nonetheless.[7] Many European migrants who worked as agricultural laborers did so with the goal of eventually purchasing their own farm in the United States; however, due to the difficulty farm hands faced in accumulating capital, this goal was often not reached.[NEWLINE][NEWLINE]The experiences of migrant laborers in agriculture during this period varied. Workers from England experienced little difficulty, as they shared a common language and Protestant religion with many Americans, and thus faced little prejudice and assimilated into American society easily; on the other hand, workers from catholic countries such as Ireland and Germany were subject to a number of prejudices.[9] Employers viewed Mexican workers, who continued to be brought into the United States on a temporary basis during the 20th century, desirably, as they generally did not strike or demand higher wages, and were thus seen by managers as being satisfied with the conditions they worked under. However, the use of Mexican migrant laborers declined during the Great Depression, when internal migrant workers from Dust Bowl states moved west to California, taking jobs normally filled by Mexican migrants.[NEWLINE][NEWLINE]Migrant labor in the 30 years after the Second World War was characterized by the movement of laborers from the southern United States, Latin America and the Caribbean northwards for seasonal work.[11] While migrant workers within the United States did have the option of finding agricultural work through government agencies, such as the Farm Labor Agency, recruitment was often done informally, with crew leaders hiring workers with the allure of high wages and free trips north.[12] On the other hand, foreign workers were hired through government programs, under contracts negotiated by prospective employers; as a result, employers were given complete control over migrant workers, which meant that migrant workers who complained about their working conditions or the terms of their contracts could be threatened with deportation.[13] Ethnographic accounts of migrant laborers in the northeastern United States have revealed that migrant workers in the post-war period often lived and worked under very poor conditions; workers were entirely dependent on their crew leader to supply them with goods, which often compounded the debt they already owed the crew leader from the trip north.[14] Furthermore, housing conditions were often abysmal, with many people sharing cramped and poorly maintained facilities.[NEWLINE][NEWLINE]During this period, a large number of foreign migrant workers entered the United States illegally. During the Second World War, Mexican migrant workers could legally work in agriculture in the United States under the Bracero guest worker program; however, the termination of this program marked the beginning of large-scale illegal immigration into the United States.[16] Illegal Mexican migrant workers have to come to be seen as an important source of cheap labor in the southwestern United States; attempts to increase enforcement against illegal migrants has been met with hostility from growers who depend on illegal immigrants as cheap laborers.[17] Furthermore, the United States government has granted amnesty to illegal Mexican migrants based on their work in agriculture: under the US Immigrant Reform and Control Act (1986), illegal immigrants that could demonstrate 60 days of employment in agriculture since 1985 were awarded permanent residence.[NEWLINE][NEWLINE]Most migrant farmworkers earn annual incomes below the poverty level and few receive benefits such as Social Security or worker's compensation. The transient nature of their work often prevents them from establishing any local residency, excluding them from benefits such as Medicaid and food stamps. The majority of migrant farmworkers are either U.S. citizens or legal residents of the United States. Some foreign workers enter the United States under guest-worker programs when there are not enough available workers to satisfy the demand.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Migrant_worker</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SUPERCARRIER</Type>
+			<Description>TXT_KEY_UNIT_SUPERCARRIER</Description>
+			<DefaultUnit>UNIT_SUPERCARRIER</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SUPERCARRIER</Class>
+			<Type>UNIT_SUPERCARRIER</Type>
+			<PrereqTech>TECH_ROBOTICS</PrereqTech>
+			<Combat>75</Combat>
+			<Cost>550</Cost>
+			<Moves>6</Moves>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SUPERCARRIER</Description>
+			<Civilopedia>TXT_KEY_CIV5_SUPERCARRIER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SUPERCARRIER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SUPERCARRIER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>20</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_SUPER_CARRIER</UnitArtInfo>
+			<UnitFlagAtlas>UNITS_SUPERCARRIER_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>UNITS_SUPERCARRIER_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+	</Units>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_CARGO_III</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_CARGO_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_I</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SUPERCARRIER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPERCARRIER</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SUPERCARRIER</UnitType>
+			<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_CARRIER</UnitType>
+			<UnitClassType>UNITCLASS_SUPERCARRIER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SUPERCARRIER</UnitType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SUPERCARRIER</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SUPERCARRIER</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER">
+			<Text>Supercarrier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SUPERCARRIER">
+			<Text>Carries up to 5 Aircraft, and has an increased rate of aircraft interception.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_STRATEGY">
+			<Text>The Supercarrier is a specialized vessel which carries fighter airplanes, bombers (but not stealth bombers), and atomic bombs. The Supercarrier itself is unable to attack, but the aircraft it carries make it the most powerful offensive weapon afloat. Defensively, the Supercarrier is much stronger than its predecessor, but should still be escorted by destroyers and submarines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SUPERCARRIER_TEXT">
+			<Text>Supercarrier is an unofficial descriptive term for the largest type of aircraft carrier, usually displacing over 70,000 long tons. The U.S. Navy currently has 11 such ships. In comparison, a few countries operate what are by today's standards medium carriers (fleet carrier) of around 42,000 tons such as the French aircraft carrier Charles de Gaulle (R91). The size and configuration of the Charles de Gaulle corresponds closely with the 45,000 ton Midway class the United States built at the end of World War II, as a successor class to the much more numerous 27,000 ton Essex-class aircraft carrier which did the heavy lifting in WWII after 1943 when they entered service. Internationally, light carriers closer to 20,000 tons (such as HMS Illustrious) are more typical. Supercarriers are the largest warships ever built eclipsing even the largest battleship classes laid down by all countries.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Supercarrier</Text>
+		</Row>
+	</Language_en_US>	
+</GameData>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AMERICAN_STOCK_EXCHANGE</Type>
+			<BuildingClass>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClass>
+			<Cost>360</Cost>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_AMERICAN_STOCK_EXCHANGE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_AMERICAN_STOCK_EXCHANGE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_CIV5_BUILDINGS_AMERICAN_STOCK_EXCHANGE_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_STOCK_EXCHANGE</ArtDefineTag>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>3</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>75</ConquestProb>
+			<HurryCostModifier>15</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>56</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_STOCK_EXCHANGE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_STOCK_EXCHANGE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_STOCK_EXCHANGE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_STOCK_EXCHANGE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_STOCK_EXCHANGE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>50</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_STOCK_EXCHANGE">
+			<Text>NYSE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_AMERICAN_STOCK_EXCHANGE_STRATEGY">
+			<Text>The New York Stock Exchange (NYSE) is an American Unique Building, replacing the Stock Exchange. NYSE is a mid-game building which increases the city's output of [ICON_GOLD] Gold. The city must possess a Bank before the NYSE can be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_AMERICAN_STOCK_EXCHANGE_TEXT">
+			<Text>The New York Stock Exchange, commonly referred to as the NYSE and occasionally as the "Big Board", is a stock exchange located at 11 Wall Street, Lower Manhattan, New York City, New York, United States. It is the world's largest stock exchange by market capitalization of its listed companies at US$14.242 trillion as of Dec 2011. Average daily trading value was approximately US$153 billion in 2008.[NEWLINE][NEWLINE]The NYSE trading floor is located at 11 Wall Street and is composed of four rooms used for the facilitation of trading. A fifth trading room, located at 30 Broad Street, was closed in February 2007. The main building, located at 18 Broad Street, between the corners of Wall Street and Exchange Place, was designated a National Historic Landmark in 1978, as was the 11 Wall Street building.[NEWLINE][NEWLINE]The origin of the NYSE can be traced to May 17, 1792, when the Buttonwood Agreement was signed by 24 stockbrokers outside of 68 Wall Street in New York under a buttonwood tree on Wall Street.[10] On March 8, 1817, the organization drafted a constitution and renamed itself the "New York Stock & Exchange Board." Anthony Stockholm was elected the Exchange's first president.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/New_York_Stock_Exchange</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_MODERN_ARMOR</Class>
+			<Type>UNIT_AMERICAN_MODERN_ARMOR</Type>
+			<PrereqTech>TECH_LASERS</PrereqTech>
+			<Combat>125</Combat>
+			<Cost>525</Cost>
+			<Moves>6</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_MODERN_ARMOR</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_MODERN_MODERNARMOR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_MODERN_ARMOR_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_MODERN_ARMOR</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_MODERN_ARMOR</UnitArtInfo>
+			<UnitFlagIconOffset>74</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>27</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MODERN_ARMOR</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MODERN_ARMOR</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MODERN_ARMOR</UnitType>
+			<UnitClassType>UNITCLASS_MECH</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MODERN_ARMOR</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MODERN_ARMOR</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MODERN_ARMOR</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>		
+		<Row>
+			<UnitType>UNIT_AMERICAN_MODERN_ARMOR</UnitType>
+			<PromotionType>PROMOTION_BLITZ</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MODERN_ARMOR</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MODERN_ARMOR</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MODERN_ARMOR">
+			<Text>M1A2 Abrams</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MODERN_ARMOR_STRATEGY">
+			<Text>The M1A2 Abrams is an American Unique Unit, replacing Modern Armor. The M1A2 can move further, attack stronger and twice per turn, and lacks the defensive penalties of Modern Armor. The M1A2 Abrams can continue to move after combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_AMERICAN_MODERN_MODERNARMOR_TEXT">
+			<Text>The M1 Abrams was developed during the Cold War as a successor to the canceled MBT-70. The M1 Abrams contract went to Chrysler Defense and was the first vehicle to adopt Chobham armor. Adaptations before the Gulf War (Operations Desert Shield and Desert Storm) gave the vehicle better firepower and NBC (Nuclear, Biological and Chemical) protection. Being vastly superior to Iraqi tanks, very few M1 tanks were hit by enemy fire. Upgrades after the war improved the tank's weapons sights and fire control unit. The invasion of Iraq in 2003 destroyed Iraq's military. The subsequent insurgency exposed the tanks' vulnerability to rocket-propelled grenades and mines. These problems were partially rectified with the TUSK kit. The Marine Corps sent a company of M1 Abrams to Afghanistan in late 2010.[NEWLINE][NEWLINE]The M1A1 was capable of making kills at ranges in excess of 2,500 metres (8,200 ft). This range was crucial in combat against previous generation tanks of Soviet design in Desert Storm, as the effective range of the main gun in the Soviet/Iraqi tanks was less than 2,000 metres (6,600 ft). This meant Abrams tanks could hit Iraqi tanks before the enemy got in range—a decisive advantage in this kind of combat. In friendly fire incidents, the front armor and fore side turret armor survived direct APFSDS hits from other M1A1s. This was not the case for the side armor of the hull and the rear armor of the turret, as both areas were penetrated at least in two occasions by friendly depleted uranium ammunition during the Battle of Norfolk.[NEWLINE][NEWLINE]During Operations Desert Shield and Desert Storm some M1IP and M1A1s were modified locally in theater by a modified work order with additional rolled homogenous armor plating being welded directly on the turret front. The M1 can be equipped with mine plow and mine roller attachments.[NEWLINE][NEWLINE]Production began on the M1A2 in 1992 (77 built for the US and more than 600 M1s upgraded to M1A2, 315 for Saudi Arabia, 218 for Kuwait). The M1A2 offers the tank commander an independent thermal sight and ability to, in rapid sequence, shoot at two targets without the need to acquire each one sequentially, also 2nd generation depleted uranium armor mesh.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/M1_Abrams</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

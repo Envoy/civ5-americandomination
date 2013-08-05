@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SUPERCARRIER</Class>
+			<Type>UNIT_AMERICAN_SUPERCARRIER</Type>
+			<PrereqTech>TECH_ROBOTICS</PrereqTech>
+			<Combat>150</Combat>
+			<Cost>625</Cost>
+			<Moves>10</Moves>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_SUPERCARRIER</Description>
+			<Civilopedia>TXT_KEY_CIV5_AMERICAN_SUPERCARRIER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_SUPERCARRIER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_AMERICAN_SUPERCARRIER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>20</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_SUPER_CARRIER</UnitArtInfo>
+			<UnitFlagAtlas>UNITS_SUPERCARRIER_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>UNITS_SUPERCARRIER_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+	</Units>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_CARGO_X</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_SUPPLY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_SENTRY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SUPERCARRIER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SUPERCARRIER</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SUPERCARRIER</UnitType>
+			<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_SUPERCARRIER">
+			<Text>Nimitz-class Supercarrier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AMERICAN_SUPERCARRIER">
+			<Text>Carries up to 10 Aircraft, and is impervious to aircraft interception.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_SUPERCARRIER_STRATEGY">
+			<Text>The Nimitz-class Supercarrier is an American Unique Unit, replacing the Supercarrier. The Supercarrier is a specialized vessel which carries fighter airplanes, bombers (but not stealth bombers), and atomic bombs. The Supercarrier itself is unable to attack, but the aircraft it carries make it the most powerful offensive weapon afloat. Defensively, the Supercarrier is much stronger than its predecessor, but should still be escorted by destroyers and submarines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_AMERICAN_SUPERCARRIER_TEXT">
+			<Text>The Nimitz-class supercarriers are a class of ten nuclear-powered aircraft carriers in service with the United States Navy. The lead ship of the class is named for World War II Pacific fleet commander Chester W. Nimitz, who was the Navy's last fleet admiral. With an overall length of 1,092 ft (333 m) and full-load displacements of over 100,000 long tons,[1] they are the largest capital ships in the world. Instead of the gas turbines or diesel-electric systems used for propulsion on many modern warships, the carriers use two A4W pressurized water reactors which drive four propeller shafts and can produce a maximum speed of over 30 knots (56 km/h) and maximum power of around 260,000 shp (190 MW). As a result of the use of nuclear power, the ships are capable of operating for over 20 years without refueling and are predicted to have a service life of over 50 years. They are categorized as nuclear-powered aircraft carriers and are numbered with consecutive hull numbers between CVN-68 and CVN-77.[NEWLINE][NEWLINE]All ten carriers were constructed by Newport News Shipbuilding Company in Virginia. USS Nimitz, the lead ship of the class, was commissioned on 3 May 1975, and USS George H.W. Bush, the tenth and last of the class, was commissioned on 10 January 2009. Since the 1970s, Nimitz-class carriers have participated in many conflicts and operations across the world, including Operation Eagle Claw in Iran, the Gulf War, and more recently in Iraq and Afghanistan.[NEWLINE][NEWLINE]The angled flight decks of the carriers use a CATOBAR arrangement to operate aircraft, with steam catapults and arrestor wires for launch and recovery. As well as speeding up flight deck operations, this allows for a much wider variety of aircraft than with the STOVL arrangement used on smaller carriers. An embarked carrier air wing consisting of up to around 90 aircraft is normally deployed on board. After the retirement of the F-14 Tomcat, the air wings' strike fighters are primarily F/A-18E/F Super Hornets and F/A-18C Hornets. In addition to their aircraft, the vessels carry short-range defensive weaponry for anti-aircraft warfare and missile defense.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Nimitz-class_aircraft_carrier</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

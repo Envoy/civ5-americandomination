@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# ModBuddy Solution File, Format Version 11.00
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "AmericanDomination-BNW", "AmericanDomination-BNW\AmericanDomination-BNW.civ5proj", "{65937536-86E4-4831-B9BA-A18030C82754}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|x86 = Default|x86
+		Deploy Only|x86 = Deploy Only|x86
+		Package Only|x86 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65937536-86E4-4831-B9BA-A18030C82754}.Default|x86.ActiveCfg = Default|x86
+		{65937536-86E4-4831-B9BA-A18030C82754}.Default|x86.Build.0 = Default|x86
+		{65937536-86E4-4831-B9BA-A18030C82754}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{65937536-86E4-4831-B9BA-A18030C82754}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{65937536-86E4-4831-B9BA-A18030C82754}.Package Only|x86.ActiveCfg = Package Only|x86
+		{65937536-86E4-4831-B9BA-A18030C82754}.Package Only|x86.Build.0 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

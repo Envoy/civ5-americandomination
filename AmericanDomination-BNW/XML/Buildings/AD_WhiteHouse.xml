@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AMERICAN_PALACE</Type>
+			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
+			<Cost>0</Cost>
+			<Help>TXT_KEY_BUILDING_AMERICAN_PALACE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_AMERICAN_PALACE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_AMERICAN_PALACE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AMERICAN_PALACE_STRATEGY</Strategy>
+			<ArtDefineTag>PALACE</ArtDefineTag>
+			<Capital>true</Capital>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>1000</Defense>
+			<ExtraCityHitPoints>100</ExtraCityHitPoints>
+			<Espionage>true</Espionage>
+			<EspionageModifier>-100</EspionageModifier>
+			<GlobalEspionageModifier>-10</GlobalEspionageModifier>
+			<GlobalSpaceProductionModifier>10</GlobalSpaceProductionModifier>
+			<GlobalDefenseMod>10</GlobalDefenseMod>
+			<WonderProductionModifier>10</WonderProductionModifier>
+			<BuildingProductionModifier>10</BuildingProductionModifier>
+			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
+			<DisplayPosition>32</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>AMERICAN_PALACE_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_YieldChanges>	
+	<Language_en_US>		
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_PALACE">
+			<Text>The White House</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_PALACE_STRATEGY">
+			<Text>The White House is an American Unique Building, replacing the Palace. The White House is the seat of your government. Early in the game it provides a significant portion of your capital city's culture, gold, science, faith, food, and production. It also forms the heart of your empire's trading system. Although The White House is automatically rebuilt in another city if your capital is captured, it can still be a terrible blow to your civilization (and it makes it impossible for you to win a Domination victory until you get it back).[NEWLINE][NEWLINE]Reduces effectiveness of enemy spies in the [ICON_CAPITAL] Capital by 99.99%, and in all cities by 10%.[NEWLINE][NEWLINE]+10% [ICON_PRODUCTION] Production when constructing Buildings and Wonders in the [ICON_CAPITAL] Capital, and +10% [ICON_PRODUCTION] Production when building Spaceship Parts in all cities.[NEWLINE][NEWLINE]Increases Hit Points in the [ICON_CAPITAL] Capital by 100, and increases the bonus from defensive buildings in all cities by 10%.[NEWLINE][NEWLINE]Protect The White House!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_PALACE_HELP">
+			<Text>Indicates this City is the [ICON_CAPITAL] Capital of the empire.[NEWLINE][NEWLINE][ICON_CONNECTED] Connecting other Cities to the [ICON_CAPITAL] Capital by Road will produce additional [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION] Production, +5 [ICON_RESEARCH] Science, +5 [ICON_GOLD] Gold, +5 [ICON_CULTURE] Culture, +5 [ICON_PEACE] Faith, and +5 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_AMERICAN_PALACE_TEXT">
+			<Text>The White House is the official residence and principal workplace of the President of the United States. Located at 1600 Pennsylvania Avenue NW in Washington, D.C., the house was designed by Irish-born James Hoban,[1] and built between 1792 and 1800 of white-painted Aquia sandstone in the Neoclassical style. It has been the residence of every U.S. president since John Adams. When Thomas Jefferson moved into the house in 1801, he (with architect Benjamin Henry Latrobe) expanded the building outward, creating two colonnades that were meant to conceal stables and storage.[NEWLINE][NEWLINE]In 1814, during the War of 1812, the mansion was set ablaze by the British Army in the Burning of Washington, destroying the interior and charring much of the exterior. Reconstruction began almost immediately, and President James Monroe moved into the partially reconstructed house in October 1817. Construction continued with the addition of the South Portico in 1824 and the North in 1829. Because of crowding within the executive mansion itself, President Theodore Roosevelt had all work offices relocated to the newly constructed West Wing in 1901. Eight years later, President William Howard Taft expanded the West Wing and created the first Oval Office which was eventually moved as the section was expanded. The third-floor attic was converted to living quarters in 1927 by augmenting the existing hip roof with long shed dormers. A newly constructed East Wing was used as a reception area for social events; Jefferson's colonnades connected the new wings. East Wing alterations were completed in 1946, creating additional office space. By 1948, the house's load-bearing exterior walls and internal wood beams were found to be close to failure. Under Harry S. Truman, the interior rooms were completely dismantled and a new internal load-bearing steel frame constructed inside the walls. Once this work was completed, the interior rooms were rebuilt.[NEWLINE][NEWLINE]Today, the White House Complex includes the Executive Residence, West Wing, Cabinet Room, Roosevelt Room, East Wing, and the Eisenhower Executive Office Building, which houses the executive offices of the President and Vice President.[NEWLINE][NEWLINE]The White House is made up of six stories—the Ground Floor, State Floor, Second Floor, and Third Floor, as well as a two-story basement. The term White House is regularly used as a metonym for the Executive Office of the President of the United States and for the president's administration and advisers in general. The property is a National Heritage Site owned by the National Park Service and is part of the President's Park. In 2007, it was ranked second on the American Institute of Architects list of "America's Favorite Architecture".[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/White_House</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_AMERICAN_PALACE">
+			<Text>Presidential Showcase of American History</Text>
+		</Row>
+	</Language_en_US>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>AMERICAN_PALACE_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ART/TheWhiteHouse256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>AMERICAN_PALACE_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ART/TheWhiteHouse128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>AMERICAN_PALACE_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ART/TheWhiteHouse64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>AMERICAN_PALACE_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ART/TheWhiteHouse45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

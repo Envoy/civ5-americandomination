@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_AMERICAN_FORT</Type>
+			<Description>TXT_KEY_IMPROVEMENT_AMERICAN_FORT</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_AMERICAN_FORT_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_FORT</ArtDefineTag>
+			<DestroyedWhenPillaged>true</DestroyedWhenPillaged>			
+			<BuildableOnResources>true</BuildableOnResources>
+			<DefenseModifier>75</DefenseModifier>
+			<NearbyEnemyDamage>25</NearbyEnemyDamage>
+			<OutsideBorders>true</OutsideBorders>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_AMERICAN_FORT</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_AMERICAN_FORT</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_AMERICAN_FORT</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_AMERICAN_FORT</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_AMERICAN_FORT</ImprovementType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+	<Builds>
+		<Row>
+			<Type>BUILD_AMERICAN_FORT</Type>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<Time>600</Time>
+			<ImprovementType>IMPROVEMENT_AMERICAN_FORT</ImprovementType>
+			<Description>TXT_KEY_BUILD_AMERICAN_FORT</Description>
+			<Help>TXT_KEY_BUILD_AMERICAN_FORT_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_AMERICAN_FORT_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_F</HotKey>
+			<OrderPriority>1</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>30</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+	</Builds>
+	<BuildFeatures>
+		<Row>
+			<BuildType>BUILD_AMERICAN_FORT</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>500</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_AMERICAN_FORT</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>300</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_AMERICAN_FORT</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>400</Time>
+		</Row>
+	</BuildFeatures>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_IMPROVEMENT_AMERICAN_FORT">
+			<Text>Hardened Fort</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_AMERICAN_FORT">
+			<Text>Construct a [LINK=IMPROVEMENT_FORT]Hardened Fort[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_AMERICAN_FORT_HELP">
+			<Text>+75% [ICON_STRENGTH] Defensive Strength for any Unit stationed in this Tile. Any enemy unit which ends its turn next to the Hardened Fort takes 25 damage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_AMERICAN_FORT_REC">
+			<Text>It will improve the [ICON_STRENGTH] Defense of any military unit stationed in this tile and cause damage to enemy units that end their turn adjacent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_AMERICAN_FORT_TEXT">
+			<Text>A hardened fort is a special improvement that improves a hex's defensive bonus by 75% for units stationed in that hex. However, they do not provide a defensive bonus to units in enemy territory. Additionally, any enemy unit which ends its turn next to it takes 25 damage.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

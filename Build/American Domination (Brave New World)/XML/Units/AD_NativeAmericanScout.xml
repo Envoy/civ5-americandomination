@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SCOUT</Class>
+			<Type>UNIT_AMERICAN_SCOUT</Type>
+			<Combat>5</Combat>
+			<Cost>25</Cost>
+			<FaithCost>50</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_SCOUT</Description>
+			<Civilopedia>TXT_KEY_UNIT_AMERICAN_SCOUT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_SCOUT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SCOUT</Help>
+			<NoBadGoodies>true</NoBadGoodies>
+			<Pillage>true</Pillage>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_SCIENTIFIC_THEORY</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<!-- Mix of Scout and Pathfinder Art -->
+			<UnitArtInfo>ART_DEF_UNIT_U_SHOSHONE_PATHFINDER</UnitArtInfo>			
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
+			<UnitFlagIconOffset>5</UnitFlagIconOffset>
+		</Row>		
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SCOUT</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SCOUT</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SCOUT</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SCOUT</UnitType>
+			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SCOUT</UnitType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_SCOUT">
+			<Text>Native Scout</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_SCOUT_STRATEGY">
+			<Text>The Native Scout is an American Unique Unit, replacing the Scout. This early unit can attack but is weak. However, it can move through difficult terrain as though it were clear (all tiles cost 1mp per hex). Use it for world exploration.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_SCOUT_TEXT">
+			<Text>Native Americans have made up an integral part of U.S. military conflicts since America's beginning. Colonists recruited Indian allies during such instances as the Pequot War from 1634–1638, the Revolutionary War, as well as in War of 1812. Native Americans also fought on both sides during the American Civil War, as well as military missions abroad including the most notable, the Codetalkers who served in World War II. The Scouts were active in the American West in the late 19th and early 20th centuries. Including those who accompanied General John J. Pershing in 1916 on his expedition to Mexico in pursuit of Pancho Villa. Indian Scouts were officially deactivated in 1947 when their last member retired from the Army at Fort Huachuca, Arizona. For many Indians it was an important form of interaction with white American culture and society their first major encounter with the whites’ way of thinking and doing things.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/United_States_Army_Indian_Scouts</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
