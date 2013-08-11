@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="8d11df18-49c1-444c-8bcd-d41fc7c95909" version="2">
+<Mod id="8d11df18-49c1-444c-8bcd-d41fc7c95909" version="3">
   <Properties>
     <Name>American Domination (Brave New World)</Name>
     <Stability>Alpha</Stability>
@@ -88,14 +88,13 @@ Notes:
 [NEWLINE]
 [NEWLINE]
 
-
 Special Thanks:
 [NEWLINE][ICON_BULLET]Thalassicus: Idea for Pioneer Fort (http://civmodding.wordpress.com/vem/leaders/)
 [NEWLINE][ICON_BULLET]William Howard: Idea and art for Supercarrier, Cavalry Garrison
 [NEWLINE][ICON_BULLET]Cookie_Magic: Inclusion of "America Unique Ability Enhanced" mod
 [NEWLINE][ICON_BULLET]firstconsul: Idea for new UA (http://forums.civfanatics.com/showthread.php?t=492561&amp;page=7)[NEWLINE][ICON_BULLET]Sneaks: Customized Notifications (http://forums.civfanatics.com/showthread.php?t=411186)
 [NEWLINE][ICON_BULLET]Ekmek, asioasioasio: UAV unit and art (http://forums.civfanatics.com/showthread.php?t=494209)</Description>
-    <Authors>Envoy (@fourfourhero)</Authors>
+    <Authors>[COLOR_PLAYER_ORANGE]Envoy[ENDCOLOR] [COLOR_CYAN](@fourfourhero)[ENDCOLOR]</Authors>
     <SpecialThanks>Thalassicus, William Howard, Cookie_Magic, firstconsul, Sneaks, Ekmek, asioasioasio</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
@@ -112,9 +111,12 @@ Special Thanks:
     <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
   </Dependencies>
   <References />
-  <Blocks />
+  <Blocks>
+    <Mod id="08ba5801-044e-4cf2-b643-634149e6b910" minversion="0" maxversion="999" title="American Army Ranger" />
+  </Blocks>
   <Files>
     <File md5="FC79EA5E09CD77AD8BFF749885AE9918" import="0">AmericanDominationBNWSteam.jpg</File>
+    <File md5="F272A3AFEAB8FFD19252AE83A43CB8CF" import="0">AmericanDominationBNWSteam2.jpg</File>
     <File md5="CF959D5E2C19339F077FF17A8ACD2999" import="1">ART/ADIconAtlas128.dds</File>
     <File md5="E973EF2D433A99F2790EF8889A58FA99" import="1">ART/ADIconAtlas256.dds</File>
     <File md5="DFD1D60B6B216B33DA46BEEBE156C07F" import="1">ART/ADIconAtlas45.dds</File>
@@ -129,6 +131,7 @@ Special Thanks:
     <File md5="AC3453578BED6A1426DA77457A2B9E9D" import="1">ART/SuperCarrierFlag.dds</File>
     <File md5="6912808271DD2770F73A647396DD71B7" import="1">ART/SV_SuperCarrier.dds</File>
     <File md5="0AD731DB66C41CF13E865033EE508E85" import="1">ART/SV_UAV.dds</File>
+    <File md5="FC389B315C09E54725E0B6F5EF5B08D2" import="1">ART/SV_Union_Ironclad_ACW.dds</File>
     <File md5="827BCAAEAD8C1EC4D48FD70FE034BA6D" import="1">ART/TheWhiteHouse128.dds</File>
     <File md5="CC49241B03B0F49215705354CEDFF824" import="1">ART/TheWhiteHouse256.dds</File>
     <File md5="0C6A847C4AA21C90D7DE8D64A23EA8E5" import="1">ART/TheWhiteHouse45.dds</File>
@@ -206,7 +209,8 @@ Special Thanks:
     <File md5="74C2E5D32BF7DCD2392B565AAD468AB7" import="0">XML/Units/AD_M270MLRSGypsyWagon.xml</File>
     <File md5="979298784A340FABBC1CEC1E76125368" import="0">XML/Units/AD_M3A3Bradley.xml</File>
     <File md5="D705CB2EF8FC03BDBE3167725386171D" import="0">XML/Units/AD_MigrantWorker.xml</File>
-    <File md5="0069286D2DC5AB2D2FE729E3C2AC6633" import="0">XML/Units/AD_MonitorClassIronclad.xml</File>
+    <File md5="FF990A6F00E72050E3CA4AE9FA9BFF2D" import="0">XML/Units/AD_MonitorClassIronclad.xml</File>
+    <File md5="8E859A8FFB95B4552B22955431F8B245" import="0">XML/Units/AD_MonitorClassIronclad_Art.xml</File>
     <File md5="8F238713CC1979CB5DFEEAC81B37481D" import="0">XML/Units/AD_MQ9Reaper.xml</File>
     <File md5="196C1DF6D8C297A4592D72A2C2399B23" import="0">XML/Units/AD_NativeAmericanScout.xml</File>
     <File md5="AD7729A62A5ABC0B0C111E2932F51888" import="0">XML/Units/AD_NavySEAL.xml</File>
@@ -221,7 +225,7 @@ Special Thanks:
     <File md5="3C0A8BD579DF0603DA56A8C80AD3C20B" import="0">XML/Units/AD_TomahawkMissile.xml</File>
     <File md5="EEB846C02DA058FF5B6B6FA5798FEFEB" import="0">XML/Units/AD_TridentIINuclearMissile.xml</File>
     <File md5="64E1C538E64F740823B11930AA6B8EBF" import="0">XML/Units/AD_UAV.xml</File>
-    <File md5="271C29E900D49BF0BE45BA15E0AFBDD9" import="0">XML/Units/AD_UAV_Art.xml</File>
+    <File md5="5A371AF4B8F49F7FE32A51E154103FCD" import="0">XML/Units/AD_UAV_Art.xml</File>
     <File md5="8370266D65270940495642F1C98F3ADF" import="0">XML/Units/AD_UAV_Icons.xml</File>
     <File md5="56DE53AE6122F4FF2225172FA6C5EED4" import="0">XML/Units/AD_UnitPromotions.xml</File>
     <File md5="F1D1E4B9C83316536FD099C3A18D6188" import="0">XML/Units/AD_UnitUpdates.xml</File>
@@ -247,6 +251,7 @@ Special Thanks:
       <UpdateDatabase>XML/Units/AD_MigrantWorker.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_NativeAmericanScout.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_MonitorClassIronclad.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_MonitorClassIronclad_Art.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_NavySEAL.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_AH64DApacheLongbow.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_M270MLRSGypsyWagon.xml</UpdateDatabase>

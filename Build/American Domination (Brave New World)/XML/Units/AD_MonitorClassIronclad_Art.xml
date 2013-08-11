@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UnitArtInfos>	
+	<UnitArtInfo>
+		<Type>ART_DEF_UNIT_UNION_IRONCLAD</Type>
+		<DamageStates>3</DamageStates>
+		<UnitMemberArt>
+			<MemberType>ART_DEF_UNIT_MEMBER_UNION_IRONCLAD</MemberType>
+			<MemberCount>1</MemberCount>
+		</UnitMemberArt>
+	</UnitArtInfo>
+</UnitArtInfos>
