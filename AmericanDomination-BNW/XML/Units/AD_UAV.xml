@@ -14,7 +14,7 @@
 			<PrereqTech>TECH_TELECOM</PrereqTech>
 			<Combat>14</Combat>
 			<RangedCombat>20</RangedCombat>
-			<Cost>300</Cost>			
+			<Cost>375</Cost>			
 			<Moves>4</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>

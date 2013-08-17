@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="8d11df18-49c1-444c-8bcd-d41fc7c95909" version="3">
+<Mod id="8d11df18-49c1-444c-8bcd-d41fc7c95909" version="4">
   <Properties>
     <Name>American Domination (Brave New World)</Name>
     <Stability>Alpha</Stability>
@@ -198,13 +198,14 @@ Special Thanks:
     <File md5="DA07C7E54F1D686D40B3A2B9839A4488" import="0">XML/Buildings/AD_Statehouse.xml</File>
     <File md5="EB711A0A781E486C5722D08C1A62B82B" import="0">XML/Buildings/AD_USMilitaryBase.xml</File>
     <File md5="ED4C0662C4958270DF9E8DC9D8BD832F" import="0">XML/Buildings/AD_WhiteHouse.xml</File>
-    <File md5="5D9D99269C9B9D9DAA87C86711D2E945" import="0">XML/Civilizations/AD_Civilizations.xml</File>
+    <File md5="35112D51C343F912A1207021E838414C" import="0">XML/Civilizations/AD_Civilizations.xml</File>
     <File md5="8B182AFF574BDE220D09DA0F4104904A" import="0">XML/Civilizations/AD_Traits.xml</File>
     <File md5="5B6020E2B1418BA8CF69524B3F51D2DE" import="0">XML/Terrain/AD_Improvements.xml</File>
     <File md5="A5C445F60BEDE61B03464682DBA9B709" import="0">XML/Units/AD_AH64DApacheLongbow.xml</File>
     <File md5="39776CB13693530C5A6307597176F352" import="0">XML/Units/AD_B2Spirit.xml</File>
     <File md5="097819E5346A756BDE77F3C600581FE1" import="0">XML/Units/AD_F35LightningII.xml</File>
     <File md5="A1D89C467BC6F43FFAFEDF5C5F54542B" import="0">XML/Units/AD_Freedombringer.xml</File>
+    <File md5="9F7FF50BE66DBF945D883F790BDA622A" import="0">XML/Units/AD_IowaClassBattleship.xml</File>
     <File md5="FEB89FB7F41D70573A67B53DC94D2C10" import="0">XML/Units/AD_M1A2Abrams.xml</File>
     <File md5="74C2E5D32BF7DCD2392B565AAD468AB7" import="0">XML/Units/AD_M270MLRSGypsyWagon.xml</File>
     <File md5="979298784A340FABBC1CEC1E76125368" import="0">XML/Units/AD_M3A3Bradley.xml</File>
@@ -224,7 +225,7 @@ Special Thanks:
     <File md5="13308919A0B45E2B95CB116617AFB693" import="0">XML/Units/AD_TiconderogaClassMissileCruiser.xml</File>
     <File md5="3C0A8BD579DF0603DA56A8C80AD3C20B" import="0">XML/Units/AD_TomahawkMissile.xml</File>
     <File md5="EEB846C02DA058FF5B6B6FA5798FEFEB" import="0">XML/Units/AD_TridentIINuclearMissile.xml</File>
-    <File md5="64E1C538E64F740823B11930AA6B8EBF" import="0">XML/Units/AD_UAV.xml</File>
+    <File md5="E08FC73D046B730179FD937C8F1A2EE1" import="0">XML/Units/AD_UAV.xml</File>
     <File md5="5A371AF4B8F49F7FE32A51E154103FCD" import="0">XML/Units/AD_UAV_Art.xml</File>
     <File md5="8370266D65270940495642F1C98F3ADF" import="0">XML/Units/AD_UAV_Icons.xml</File>
     <File md5="56DE53AE6122F4FF2225172FA6C5EED4" import="0">XML/Units/AD_UnitPromotions.xml</File>
@@ -252,6 +253,7 @@ Special Thanks:
       <UpdateDatabase>XML/Units/AD_NativeAmericanScout.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_MonitorClassIronclad.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_MonitorClassIronclad_Art.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_IowaClassBattleship.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_NavySEAL.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_AH64DApacheLongbow.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_M270MLRSGypsyWagon.xml</UpdateDatabase>

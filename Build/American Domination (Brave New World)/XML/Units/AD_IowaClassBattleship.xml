@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_BATTLESHIP</Class>
+			<Type>UNIT_AMERICAN_BATTLESHIP</Type>
+			<PrereqTech>TECH_ELECTRONICS</PrereqTech>			
+			<Combat>70</Combat>
+			<RangedCombat>80</RangedCombat>
+			<Cost>425</Cost>
+			<Moves>6</Moves>
+			<Range>3</Range>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_BATTLESHIP</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_AMERICAN_BATTLESHIP_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_BATTLESHIP_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_AMERICAN_BATTLESHIP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_BATTLESHIP</UnitArtInfo>
+			<UnitFlagIconOffset>68</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_BATTLESHIP</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_BATTLESHIP</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_BATTLESHIP</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_BATTLESHIP</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>27</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_BATTLESHIP</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_BATTLESHIP</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_BATTLESHIP</UnitType>
+			<PromotionType>PROMOTION_TARGETING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_BATTLESHIP</UnitType>
+			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_AMERICAN_BATTLESHIP</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_BATTLESHIP">
+			<Text>Iowa-class Battleship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_BATTLESHIP_STRATEGY">
+			<Text>The Iowa-class Battleship is an American Unique Unit, replacing the Battleship. The Iowa is an extremely powerful warship with a mighty Combat Strength and Ranged Combat Strength. It has an attack range of 3 hexes, allowing it to bombard units or cities several hexes inland. Its indirect fire ability allows it to bombard targets it cannot see (as long as other friendly units can see them). Eventhough the Iowa has more bonuses against naval and land units than the Battleship, it is still vulnerable to air and submarine attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AMERICAN_BATTLESHIP">
+			<Text>Most powerful ranged Naval unit in the game until the Ohio-class Nuclear Submarine and Ticonderoga-class Missile Cruiser.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_AMERICAN_BATTLESHIP_TEXT">
+			<Text>The Iowa-class battleships were a class of fast battleships ordered by the United States Navy in 1939 and 1940 to escort the Fast Carrier Task Forces that would operate in the Pacific Theater of World War II. Four were completed; two more were laid down but canceled at war's end and scrapped. Like other third-generation American battleships, the Iowa class followed the design pattern set forth in the preceding North Carolina-class and South Dakota-class battleships, which emphasized speed and the secondary and anti-aircraft batteries. The Iowas were the longest battleships ever built, although others had wider beams and higher displacements.[NEWLINE][NEWLINE]Between the mid-1940s and the early 1990s, the Iowa-class battleships fought in four U.S. wars. In World War II, they defended aircraft carriers and shelled Japanese positions. During the Korean War, the battleships provided seaborne artillery support for United Nations forces fighting North Korea, and in 1968, New Jersey shelled Viet Cong and Vietnam People's Army forces in the Vietnam War. All four were reactivated and armed with missiles during the 1980s as part of the 600-ship Navy initiative; during 1991's Operation Desert Storm, Missouri and Wisconsin fired missiles and 16-inch (406 mm) guns at Iraqi targets.[NEWLINE][NEWLINE]Costly to maintain, the battleships were decommissioned during the post-Cold War drawdown in the early 1990s. All four were initially removed from the Naval Vessel Register; however, the United States Congress compelled the Navy to reinstate two of them on the grounds that existing naval gunfire support would be inadequate for amphibious operations. This resulted in a lengthy debate over whether battleships should have a role in the modern navy. Ultimately, all four ships were stricken from the Naval Vessel Register and released for donation to non-profit organizations. With the transfer of Iowa in 2012, all four are part of various non-profit maritime museums across the U.S.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Iowa-class_battleship</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

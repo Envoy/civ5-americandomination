@@ -5,7 +5,7 @@
     <ProjectGuid>{65937536-86e4-4831-b9ba-a18030c82754}</ProjectGuid>
     <Name>American Domination (Brave New World)</Name>
     <Guid>8d11df18-49c1-444c-8bcd-d41fc7c95909</Guid>
-    <ModVersion>3</ModVersion>
+    <ModVersion>4</ModVersion>
     <Stability>Alpha</Stability>
     <Teaser>This mod makes the American civilization EXTREMELY overpowered, and fun to play.</Teaser>
     <Description>This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 18 new units, 11 new buldings, one new resource, and one new improvement! Enjoy!
@@ -217,6 +217,11 @@ Special Thanks:
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>XML/Units/AD_MonitorClassIronclad_Art.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Units/AD_IowaClassBattleship.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -732,6 +737,10 @@ Special Thanks:
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Units\AD_Freedombringer.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Units\AD_IowaClassBattleship.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

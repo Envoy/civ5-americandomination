@@ -123,6 +123,11 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<UnitClassType>UNITCLASS_BATTLESHIP</UnitClassType>
+			<UnitType>UNIT_AMERICAN_BATTLESHIP</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
 			<UnitClassType>UNITCLASS_PARATROOPER</UnitClassType>
 			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
 		</Row>
