@@ -195,7 +195,7 @@ Special Thanks:
     <File md5="52AB09FF932228257C1760353E41A438" import="0">XML/Buildings/AD_PharmaLab.xml</File>
     <File md5="ED2F4A6B371838BCA3F4115229489C80" import="0">XML/Buildings/AD_Pinkertons.xml</File>
     <File md5="96B82D27DC1E0F36EFD692657D4D8677" import="0">XML/Buildings/AD_PioneerFort.xml</File>
-    <File md5="DA07C7E54F1D686D40B3A2B9839A4488" import="0">XML/Buildings/AD_Statehouse.xml</File>
+    <File md5="9CF83891D68365D8601E682F53346A9E" import="0">XML/Buildings/AD_Statehouse.xml</File>
     <File md5="EB711A0A781E486C5722D08C1A62B82B" import="0">XML/Buildings/AD_USMilitaryBase.xml</File>
     <File md5="ED4C0662C4958270DF9E8DC9D8BD832F" import="0">XML/Buildings/AD_WhiteHouse.xml</File>
     <File md5="35112D51C343F912A1207021E838414C" import="0">XML/Civilizations/AD_Civilizations.xml</File>
@@ -205,7 +205,7 @@ Special Thanks:
     <File md5="39776CB13693530C5A6307597176F352" import="0">XML/Units/AD_B2Spirit.xml</File>
     <File md5="097819E5346A756BDE77F3C600581FE1" import="0">XML/Units/AD_F35LightningII.xml</File>
     <File md5="A1D89C467BC6F43FFAFEDF5C5F54542B" import="0">XML/Units/AD_Freedombringer.xml</File>
-    <File md5="9F7FF50BE66DBF945D883F790BDA622A" import="0">XML/Units/AD_IowaClassBattleship.xml</File>
+    <File md5="D2D854659AEAED13DD2D03050951ABEC" import="0">XML/Units/AD_IowaClassBattleship.xml</File>
     <File md5="FEB89FB7F41D70573A67B53DC94D2C10" import="0">XML/Units/AD_M1A2Abrams.xml</File>
     <File md5="74C2E5D32BF7DCD2392B565AAD468AB7" import="0">XML/Units/AD_M270MLRSGypsyWagon.xml</File>
     <File md5="979298784A340FABBC1CEC1E76125368" import="0">XML/Units/AD_M3A3Bradley.xml</File>

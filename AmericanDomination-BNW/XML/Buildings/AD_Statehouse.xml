@@ -13,8 +13,6 @@
 			<Strategy>TXT_KEY_BUILDING_AMERICAN_GARDEN_STRATEGY</Strategy>
 			<Help>TXT_KEY_BUILDING_AMERICAN_GARDEN_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_GARDEN</ArtDefineTag>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>			
 			<GreatPeopleRateModifier>50</GreatPeopleRateModifier>
@@ -27,7 +25,7 @@
 		<Row>
 			<BuildingType>BUILDING_AMERICAN_GARDEN</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>3</Yield>
+			<Yield>5</Yield>
 		</Row>
 	</Building_YieldChanges>
 	<Building_Flavors>
