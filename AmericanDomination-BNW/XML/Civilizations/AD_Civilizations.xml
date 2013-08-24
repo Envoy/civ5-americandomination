@@ -118,6 +118,11 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<UnitClassType>UNITCLASS_ARCHAEOLOGIST</UnitClassType>
+			<UnitType>UNIT_AMERICAN_ARCHAEOLOGIST</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
 			<UnitClassType>UNITCLASS_IRONCLAD</UnitClassType>
 			<UnitType>UNIT_AMERICAN_IRONCLAD</UnitType>
 		</Row>

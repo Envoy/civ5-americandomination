@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_ARCHAEOLOGIST</Class>
+			<Type>UNIT_AMERICAN_ARCHAEOLOGIST</Type>
+			<PrereqTech>TECH_ARCHAEOLOGY</PrereqTech>
+			<Cost>200</Cost>
+			<Moves>6</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
+			<Combat>5</Combat>
+			<!--
+			<Capture>UNITCLASS_ARCHAEOLOGIST</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+			-->
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ARCHAEOLOGIST</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_ARCHAEOLOGIST</Description>
+			<Civilopedia>TXT_KEY_CIV5_AMERICAN_ARCHAEOLOGIST_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_ARCHAEOLOGIST_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_AMERICAN_ARCHAEOLOGIST</Help>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<WorkRate>200</WorkRate>
+			<!--
+			<CombatLimit>0</CombatLimit>
+			-->
+			<UnitArtInfo>ART_DEF_UNIT_ARCHAEOLOGIST</UnitArtInfo>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+
+	</Units>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ARCHAEOLOGIST</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ARCHAEOLOGIST</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ARCHAEOLOGIST</UnitType>
+			<PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ARCHAEOLOGIST</UnitType>
+			<PromotionType>PROMOTION_AMERICAN_ARCHAEOLOGIST</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ARCHAEOLOGIST</UnitType>
+			<UnitAIType>UNITAI_ARCHAEOLOGIST</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ARCHAEOLOGIST</UnitType>
+			<BuildType>BUILD_ARCHAEOLOGY_DIG</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ARCHAEOLOGIST</UnitType>
+			<BuildType>BUILD_LANDMARK</BuildType>
+		</Row>
+	</Unit_Builds>
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ARCHAEOLOGIST</UnitType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_ARCHAEOLOGIST</UnitType>
+			<FlavorType>FLAVOR_ARCHAEOLOGY</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_ARCHAEOLOGIST">
+			<Text>Indiana Jones</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AMERICAN_ARCHAEOLOGIST">
+			<Text>Halp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_ARCHAEOLOGIST_STRATEGY">
+			<Text>Strat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_AMERICAN_ARCHAEOLOGIST_TEXT">
+			<Text>Civo</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -62,10 +62,6 @@
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_AMERICAN_MECH</UnitType>
-			<PromotionType>PROMOTION_AMERICAN_INGENUITY</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AMERICAN_MECH</UnitType>
 			<PromotionType>PROMOTION_AMERICAN_DOMINATION</PromotionType>
 		</Row>
 		<Row>

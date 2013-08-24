@@ -39,10 +39,6 @@
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
-			<PromotionType>PROMOTION_AMERICAN_INGENUITY</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
 			<PromotionType>PROMOTION_EVASION_II</PromotionType>
 		</Row>
 		<Row>
