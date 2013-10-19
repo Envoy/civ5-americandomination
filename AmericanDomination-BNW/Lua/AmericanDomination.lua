@@ -3,9 +3,6 @@
 -- DateCreated: 4/18/2013 6:02:48 PM
 --------------------------------------------------------------
 include( "SaveUtils.lua" ); MY_MOD_NAME = "AmericanDomination";
---include( "CustomNotification.lua" );
---LuaEvents.NotificationAddin({ name = "UnitedPatriotism", type = "CNOTIFICATION_UNITED_PATRIOTISM"});
---------------------------------------------------------------
 
 -- OK TO MODIFY
 gWeLoveTheKingTurns = 20;

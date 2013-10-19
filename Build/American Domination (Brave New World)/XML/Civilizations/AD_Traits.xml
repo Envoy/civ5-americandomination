@@ -83,10 +83,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_UNITED_PATRIOTISM">
 			<Text>The empire enters a double-length [ICON_GOLDEN_AGE] Golden Age when war is declared upon it. All cities in the empire celebrate "We Love the King Day" when any war is ended.</Text>
-		</Row>
-		<!-- Notifications -->
-		<Row Tag="CNOTIFICATION_UNITED_PATRIOTISM">
-			<Text>American Domination - United Patriotism</Text>
 		</Row>		
 	</Language_en_US>
 </GameData>

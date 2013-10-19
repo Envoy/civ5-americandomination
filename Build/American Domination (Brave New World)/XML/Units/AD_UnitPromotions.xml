@@ -81,22 +81,7 @@
 			<IconAtlas>ABILITY_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_AMERICAN_INGENUITY</PediaEntry>
-		</Row>
-		<!--
-		<Row>
-			<Type>PROMOTION_AMERICAN_ARCHAEOLOGIST</Type>
-			<Description>TXT_KEY_PROMOTION_AMERICAN_ARCHAEOLOGIST</Description>
-			<Help>TXT_KEY_PROMOTION_AMERICAN_ARCHAEOLOGIST_HELP</Help>
-			<Sound>AS2D_IF_LEVELUP</Sound>
-			<CannotBeChosen>true</CannotBeChosen>
-			<CanMoveImpassable>true</CanMoveImpassable>
-			<HoveringUnit>true</HoveringUnit>
-			<PortraitIndex>58</PortraitIndex>
-			<IconAtlas>ABILITY_ATLAS</IconAtlas>
-			<PediaType>PEDIA_ATTRIBUTES</PediaType>
-			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_AMERICAN_ARCHAEOLOGIST</PediaEntry>
-		</Row>
-		-->
+		</Row>		
 	</UnitPromotions>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_PROMOTION_AMERICAN_HALOJUMP">
@@ -140,12 +125,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AMERICAN_DOMINATION_HELP">
 			<Text>Enemy units receive -25% [ICON_STRENGTH] Combat Strength when adjacent to American Freedombringer units.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_AMERICAN_ARCHAEOLOGIST">
-			<Text>Fortune and Glory</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_AMERICAN_ARCHAEOLOGIST_HELP">
-			<Text>Indy help</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

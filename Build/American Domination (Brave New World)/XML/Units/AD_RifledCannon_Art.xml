@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UnitArtInfos>
+	<UnitArtInfo>
+		<Type>ART_DEF_UNIT_UNION_ARTILLERY_PARROTT</Type>
+		<Formation>TwoBigGuns</Formation>
+		<DamageStates>1</DamageStates>
+		<UnitMemberArt>
+			<MemberType>ART_DEF_UNIT_MEMBER_UNION_ARTILLERY_PARROTT</MemberType>
+			<MemberCount>3</MemberCount>
+		</UnitMemberArt>
+	</UnitArtInfo>
+</UnitArtInfos>

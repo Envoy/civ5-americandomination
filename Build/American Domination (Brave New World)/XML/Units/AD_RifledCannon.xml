@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Type>UNIT_AMERICAN_CANNON</Type>
+			<Class>UNITCLASS_CANNON</Class>
+			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
+			<Cost>200</Cost>
+			<Combat>18</Combat>
+			<RangedCombat>30</RangedCombat>
+			<Moves>2</Moves>
+			<Range>3</Range>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_CANNON</Description>
+			<Civilopedia>TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_RIFLED_CANNON_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_CANNON_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_AMERICAN_CANNON_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_UNION_ARTILLERY_PARROTT</UnitArtInfo>
+			<MoveRate>ARTILLERY</MoveRate>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<UnitFlagAtlas>CIVIL_WAR_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>CIVIL_WAR_UNIT_ATLAS</IconAtlas>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_CANNON</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_CANNON</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_AMERICAN_CANNON</UnitType>
+			<UnitClassType>UNITCLASS_ARTILLERY</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_CANNON</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_CANNON</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_CANNON</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_CANNON</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_CANNON</UnitType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_CANNON</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_CANNON</UnitType>
+			<PromotionType>PROMOTION_MUST_SET_UP</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_CANNON">
+			<Text>Rifled Cannon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_CANNON_STRATEGY">
+			<Text>The Rifled Cannon is an American Unique Unit, replacing the Cannon. The Rifled Cannon is an important mid-game siege unit, devastating against civilizations which have not yet acquired their counterpart, the Canon. Like other siege units, the Rifled Cannon must spend 1 mp to set up before it can attack. The Rifled Cannon remains potent into the Industrial era. The Rifled Cannon cannot see as far as other units, and should be protected with melee units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_CANNON_HELP">
+			<Text>Powerful Renaissance Era Siege Unit. Must set up prior to firing.</Text>
+		</Row>
+	</Language_en_US>
+	<ArtDefine_StrategicView>
+		<Row TileType="Unit">
+			<StrategicViewType>ART_DEF_UNIT_UNION_ARTILLERY_PARROTT</StrategicViewType>
+			<Asset>SV_ParrottCannon_ACW.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_AMERICAN_CANNON">
+			<SelectionSound>AS2D_SELECT_CANNON</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CANNON</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+</GameData>

@@ -81,8 +81,8 @@
 			<UnitType>UNIT_AMERICAN_IRONCLAD</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
 			<Cost>1</Cost>
-		</Row
-	</Unit_ResourceQuantityRequirements>
+		</Row>
+	</Unit_ResourceQuantityRequirements>	
 	<Language_en_US>
 		<Row Tag="TXT_KEY_UNIT_AMERICAN_IRONCLAD">
 			<Text>Monitor-class Ironclad</Text>

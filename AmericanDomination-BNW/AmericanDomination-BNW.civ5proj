@@ -5,10 +5,10 @@
     <ProjectGuid>{65937536-86e4-4831-b9ba-a18030c82754}</ProjectGuid>
     <Name>American Domination (Brave New World)</Name>
     <Guid>8d11df18-49c1-444c-8bcd-d41fc7c95909</Guid>
-    <ModVersion>4</ModVersion>
-    <Stability>Alpha</Stability>
+    <ModVersion>6</ModVersion>
+    <Stability>Beta</Stability>
     <Teaser>This mod makes the American civilization EXTREMELY overpowered, and fun to play.</Teaser>
-    <Description>This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 19 new units, 11 new buldings, one new resource, and one new improvement! Enjoy!
+    <Description>This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 20 new units, 11 new buldings, one new resource, and one new improvement! Enjoy!
 
 [NEWLINE]
 [NEWLINE]
@@ -39,6 +39,7 @@ New Units (America):
 [NEWLINE][ICON_BULLET]Pioneer (Settler)
 [NEWLINE][ICON_BULLET]Migrant Worker (Worker)
 [NEWLINE][ICON_BULLET]Native Scout (Scout)
+[NEWLINE][ICON_BULLET]Rifled Canon (Canon)
 [NEWLINE][ICON_BULLET]Monitor-class Ironclad (Ironclad)
 [NEWLINE][ICON_BULLET]Iowa-class Battleship (Ironclad)
 [NEWLINE][ICON_BULLET]Navy SEAL (Paratrooper)
@@ -212,6 +213,16 @@ Special Thanks:
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>XML/Units/AD_RifledCannon.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Units/AD_RifledCannon_Art.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>XML/Units/AD_MonitorClassIronclad.xml</FileName>
       </Action>
       <Action>
@@ -370,10 +381,8 @@ Special Thanks:
   <ItemGroup>
     <Folder Include="Lua" />
     <Folder Include="ART" />
-    <Folder Include="Lua\CustomNotifications\" />
     <Folder Include="MODEL" />
     <Folder Include="MODEL\EditedAnimations\" />
-    <Folder Include="UI" />
     <Folder Include="XML" />
     <Folder Include="XML\Buildings" />
     <Folder Include="XML\Civilizations" />
@@ -434,6 +443,10 @@ Special Thanks:
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="ART\SuperCarrierFlag.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\SV_ParrottCannon_ACW.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -518,18 +531,6 @@ Special Thanks:
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Lua\AmericanDomination.lua">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="Lua\CustomNotifications\ClassUtils.lua">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="Lua\CustomNotifications\CustomNotification.lua">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="Lua\CustomNotifications\NotificationPanel.lua">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -665,10 +666,6 @@ Special Thanks:
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="UI\AmericanDomination.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
     <Content Include="XML\Buildings\AD_CavalryGarrison.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -726,10 +723,6 @@ Special Thanks:
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Units\AD_AH64DApacheLongbow.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="XML\Units\AD_Archaeologist.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -794,6 +787,14 @@ Special Thanks:
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Units\AD_Pioneer.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Units\AD_RifledCannon.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Units\AD_RifledCannon_Art.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

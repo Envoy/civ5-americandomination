@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="8d11df18-49c1-444c-8bcd-d41fc7c95909" version="4">
+<Mod id="8d11df18-49c1-444c-8bcd-d41fc7c95909" version="6">
   <Properties>
     <Name>American Domination (Brave New World)</Name>
-    <Stability>Alpha</Stability>
+    <Stability>Beta</Stability>
     <Teaser>This mod makes the American civilization EXTREMELY overpowered, and fun to play.</Teaser>
-    <Description>This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 19 new units, 11 new buldings, one new resource, and one new improvement! Enjoy!
+    <Description>This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 20 new units, 11 new buldings, one new resource, and one new improvement! Enjoy!
 
 [NEWLINE]
 [NEWLINE]
@@ -35,6 +35,7 @@ New Units (America):
 [NEWLINE][ICON_BULLET]Pioneer (Settler)
 [NEWLINE][ICON_BULLET]Migrant Worker (Worker)
 [NEWLINE][ICON_BULLET]Native Scout (Scout)
+[NEWLINE][ICON_BULLET]Rifled Canon (Canon)
 [NEWLINE][ICON_BULLET]Monitor-class Ironclad (Ironclad)
 [NEWLINE][ICON_BULLET]Iowa-class Battleship (Ironclad)
 [NEWLINE][ICON_BULLET]Navy SEAL (Paratrooper)
@@ -104,6 +105,7 @@ Special Thanks:
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
     <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
     <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
     <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
     <ReloadUnitSystem>1</ReloadUnitSystem>
@@ -130,6 +132,7 @@ Special Thanks:
     <File md5="33B42C65CBA4CEEE5A85899F8BC9D0EE" import="1">ART/SuperCarrier64.dds</File>
     <File md5="9223C38C6CD32836ABBFE47DF95D8DFC" import="1">ART/SuperCarrier80.dds</File>
     <File md5="AC3453578BED6A1426DA77457A2B9E9D" import="1">ART/SuperCarrierFlag.dds</File>
+    <File md5="314E34FE0A684C1E5569FA9F33082B7C" import="1">ART/SV_ParrottCannon_ACW.dds</File>
     <File md5="6912808271DD2770F73A647396DD71B7" import="1">ART/SV_SuperCarrier.dds</File>
     <File md5="0AD731DB66C41CF13E865033EE508E85" import="1">ART/SV_UAV.dds</File>
     <File md5="FC389B315C09E54725E0B6F5EF5B08D2" import="1">ART/SV_Union_Ironclad_ACW.dds</File>
@@ -150,10 +153,7 @@ Special Thanks:
     <File md5="372742D9B878CBDBFF7CEF2990D67CDE" import="1">ART/UBIconAtlas256.dds</File>
     <File md5="8F7187881A128AEF210490CF507EF64C" import="1">ART/UBIconAtlas45.dds</File>
     <File md5="3C8118EF5C4AA1141CD8A15CDC1255B9" import="1">ART/UBIconAtlas64.dds</File>
-    <File md5="F5585C944B4A629215E3070FB6A89EF2" import="0">Lua/AmericanDomination.lua</File>
-    <File md5="155E43834C7767803378678E974CD312" import="0">Lua/CustomNotifications/ClassUtils.lua</File>
-    <File md5="406E93642C7B0BE3EEF66DD114CE0C74" import="0">Lua/CustomNotifications/CustomNotification.lua</File>
-    <File md5="2F2947CD72FC50AF9A7FBC76464BAF22" import="0">Lua/CustomNotifications/NotificationPanel.lua</File>
+    <File md5="AF493CC1471BAB089C50339A94020ED4" import="0">Lua/AmericanDomination.lua</File>
     <File md5="78F37473BBDCDC4C98D16F5434B209E6" import="1">Lua/SaveUtils.lua</File>
     <File md5="BA0D234DE017F5CEB6DEF37CE7DFE384" import="1">MODEL/EditedAnimations/edited_aim_ms_attack_city_to_run.dge</File>
     <File md5="75D8FBC3A2C4D56B1089F20A2E9D9DA1" import="1">MODEL/EditedAnimations/edited_aim_ms_attack_to_run_graph.dge</File>
@@ -187,7 +187,6 @@ Special Thanks:
     <File md5="B4AA996980CDEC1B592C039166C30B4E" import="1">MODEL/Queen_Elizabeth_Class_Carrier.gr2</File>
     <File md5="4B27E46F131D3A67BE91DFFBA6D6524D" import="1">MODEL/Queen_Elizabeth_Class_Carrier_gloss.dds</File>
     <File md5="90DF67F1E343BB93D85AFED78C12E1F2" import="1">MODEL/UAV.fxsxml</File>
-    <File md5="0ED0CA8A2BACD29729DA0D46D18D5F3F" import="1">UI/AmericanDomination.xml</File>
     <File md5="A197D24BED2AB20C5C732861FE63D326" import="0">XML/Buildings/AD_CavalryGarrison.xml</File>
     <File md5="AA7182437C0594F19B9DCC6947D3FCFB" import="0">XML/Buildings/AD_FalloutShelter.xml</File>
     <File md5="6E1BDCFD46C6F2FDA2808910930D5917" import="0">XML/Buildings/AD_Hilton.xml</File>
@@ -199,11 +198,10 @@ Special Thanks:
     <File md5="9CF83891D68365D8601E682F53346A9E" import="0">XML/Buildings/AD_Statehouse.xml</File>
     <File md5="EB711A0A781E486C5722D08C1A62B82B" import="0">XML/Buildings/AD_USMilitaryBase.xml</File>
     <File md5="ED4C0662C4958270DF9E8DC9D8BD832F" import="0">XML/Buildings/AD_WhiteHouse.xml</File>
-    <File md5="A6ED55D8DC9112603076F257EF3A90E6" import="0">XML/Civilizations/AD_Civilizations.xml</File>
-    <File md5="CBE8898B326AAEB3D04F4469C5669BD3" import="0">XML/Civilizations/AD_Traits.xml</File>
+    <File md5="5D8E156E6A843CBB3F284ECC1C08FC71" import="0">XML/Civilizations/AD_Civilizations.xml</File>
+    <File md5="7ADD0D1DB4F3426CA8AAA4957DA1082B" import="0">XML/Civilizations/AD_Traits.xml</File>
     <File md5="5B6020E2B1418BA8CF69524B3F51D2DE" import="0">XML/Terrain/AD_Improvements.xml</File>
     <File md5="A5C445F60BEDE61B03464682DBA9B709" import="0">XML/Units/AD_AH64DApacheLongbow.xml</File>
-    <File md5="6E055BF4E27E5A061D455E6F9AA22FC2" import="0">XML/Units/AD_Archaeologist.xml</File>
     <File md5="BF1D397CB8F64C1DC36344570D95964E" import="0">XML/Units/AD_B2Spirit.xml</File>
     <File md5="097819E5346A756BDE77F3C600581FE1" import="0">XML/Units/AD_F35LightningII.xml</File>
     <File md5="E69E60B4CA0E9C2A21550A48A96F8C2F" import="0">XML/Units/AD_Freedombringer.xml</File>
@@ -212,7 +210,7 @@ Special Thanks:
     <File md5="74C2E5D32BF7DCD2392B565AAD468AB7" import="0">XML/Units/AD_M270MLRSGypsyWagon.xml</File>
     <File md5="979298784A340FABBC1CEC1E76125368" import="0">XML/Units/AD_M3A3Bradley.xml</File>
     <File md5="D705CB2EF8FC03BDBE3167725386171D" import="0">XML/Units/AD_MigrantWorker.xml</File>
-    <File md5="FF990A6F00E72050E3CA4AE9FA9BFF2D" import="0">XML/Units/AD_MonitorClassIronclad.xml</File>
+    <File md5="AB00F078FC60394D33E61D43F2FE320C" import="0">XML/Units/AD_MonitorClassIronclad.xml</File>
     <File md5="8E859A8FFB95B4552B22955431F8B245" import="0">XML/Units/AD_MonitorClassIronclad_Art.xml</File>
     <File md5="8F238713CC1979CB5DFEEAC81B37481D" import="0">XML/Units/AD_MQ9Reaper.xml</File>
     <File md5="196C1DF6D8C297A4592D72A2C2399B23" import="0">XML/Units/AD_NativeAmericanScout.xml</File>
@@ -220,6 +218,8 @@ Special Thanks:
     <File md5="734828B1C414A92E23511D93E119C0FD" import="0">XML/Units/AD_NimitzClassSupercarrier.xml</File>
     <File md5="8346A11BD195EF39684F127E5F66CB28" import="0">XML/Units/AD_OhioClassNuclearSubmarine.xml</File>
     <File md5="732F921E39E7A0725FC815AB9CDD0C08" import="0">XML/Units/AD_Pioneer.xml</File>
+    <File md5="764E4DD98620B16016B457F6A70BE02E" import="0">XML/Units/AD_RifledCannon.xml</File>
+    <File md5="E406267CD0F76864FB40ECD4B5992ADA" import="0">XML/Units/AD_RifledCannon_Art.xml</File>
     <File md5="F1DA3CD7F1FF1343249F8A06E7765DD3" import="0">XML/Units/AD_Supercarrier.xml</File>
     <File md5="FFD5F4915DDB0D11909E35045CF27618" import="0">XML/Units/AD_Supercarrier_Art.xml</File>
     <File md5="B7B8613987DCD2880F45820D9C4BE677" import="0">XML/Units/AD_Supercarrier_Icons.xml</File>
@@ -230,7 +230,7 @@ Special Thanks:
     <File md5="E08FC73D046B730179FD937C8F1A2EE1" import="0">XML/Units/AD_UAV.xml</File>
     <File md5="5A371AF4B8F49F7FE32A51E154103FCD" import="0">XML/Units/AD_UAV_Art.xml</File>
     <File md5="8370266D65270940495642F1C98F3ADF" import="0">XML/Units/AD_UAV_Icons.xml</File>
-    <File md5="C949E35323239DCED8CF0B97B36FF65A" import="0">XML/Units/AD_UnitPromotions.xml</File>
+    <File md5="F50F399A82586E8CD167CE61AE2307DA" import="0">XML/Units/AD_UnitPromotions.xml</File>
     <File md5="F1D1E4B9C83316536FD099C3A18D6188" import="0">XML/Units/AD_UnitUpdates.xml</File>
   </Files>
   <Actions>
@@ -253,6 +253,8 @@ Special Thanks:
       <UpdateDatabase>XML/Units/AD_Pioneer.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_MigrantWorker.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_NativeAmericanScout.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_RifledCannon.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/AD_RifledCannon_Art.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_MonitorClassIronclad.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_MonitorClassIronclad_Art.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/AD_IowaClassBattleship.xml</UpdateDatabase>
