@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="8d11df18-49c1-444c-8bcd-d41fc7c95909" version="7">
+<Mod id="8d11df18-49c1-444c-8bcd-d41fc7c95909" version="9">
   <Properties>
     <Name>American Domination (Brave New World)</Name>
     <Stability>Beta</Stability>
@@ -189,7 +189,7 @@ Special Thanks:
     <File md5="A197D24BED2AB20C5C732861FE63D326" import="0">XML/Buildings/AD_CavalryGarrison.xml</File>
     <File md5="AA7182437C0594F19B9DCC6947D3FCFB" import="0">XML/Buildings/AD_FalloutShelter.xml</File>
     <File md5="6E1BDCFD46C6F2FDA2808910930D5917" import="0">XML/Buildings/AD_Hilton.xml</File>
-    <File md5="DA47DCF1931A4F089261FEFEB433884B" import="0">XML/Buildings/AD_MeatPackingPlant.xml</File>
+    <File md5="E94BDC369F0EC90867A8207E2EC5BE55" import="0">XML/Buildings/AD_MeatPackingPlant.xml</File>
     <File md5="A940F6E50AF22C18CD2D8BECCC900F95" import="0">XML/Buildings/AD_NYSE.xml</File>
     <File md5="52AB09FF932228257C1760353E41A438" import="0">XML/Buildings/AD_PharmaLab.xml</File>
     <File md5="ED2F4A6B371838BCA3F4115229489C80" import="0">XML/Buildings/AD_Pinkertons.xml</File>
@@ -209,7 +209,7 @@ Special Thanks:
     <File md5="74C2E5D32BF7DCD2392B565AAD468AB7" import="0">XML/Units/AD_M270MLRSGypsyWagon.xml</File>
     <File md5="979298784A340FABBC1CEC1E76125368" import="0">XML/Units/AD_M3A3Bradley.xml</File>
     <File md5="D705CB2EF8FC03BDBE3167725386171D" import="0">XML/Units/AD_MigrantWorker.xml</File>
-    <File md5="AB00F078FC60394D33E61D43F2FE320C" import="0">XML/Units/AD_MonitorClassIronclad.xml</File>
+    <File md5="73CAE4931B35BE5CEDE10741E6AB072B" import="0">XML/Units/AD_MonitorClassIronclad.xml</File>
     <File md5="8E859A8FFB95B4552B22955431F8B245" import="0">XML/Units/AD_MonitorClassIronclad_Art.xml</File>
     <File md5="8F238713CC1979CB5DFEEAC81B37481D" import="0">XML/Units/AD_MQ9Reaper.xml</File>
     <File md5="196C1DF6D8C297A4592D72A2C2399B23" import="0">XML/Units/AD_NativeAmericanScout.xml</File>
@@ -229,7 +229,7 @@ Special Thanks:
     <File md5="E08FC73D046B730179FD937C8F1A2EE1" import="0">XML/Units/AD_UAV.xml</File>
     <File md5="5A371AF4B8F49F7FE32A51E154103FCD" import="0">XML/Units/AD_UAV_Art.xml</File>
     <File md5="8370266D65270940495642F1C98F3ADF" import="0">XML/Units/AD_UAV_Icons.xml</File>
-    <File md5="F50F399A82586E8CD167CE61AE2307DA" import="0">XML/Units/AD_UnitPromotions.xml</File>
+    <File md5="A1E70EAC8E465976F07FEBFED6DBA43E" import="0">XML/Units/AD_UnitPromotions.xml</File>
     <File md5="F1D1E4B9C83316536FD099C3A18D6188" import="0">XML/Units/AD_UnitUpdates.xml</File>
   </Files>
   <Actions>

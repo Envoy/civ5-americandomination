@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <GameData>
 	<Buildings>
 		<Row>
@@ -68,6 +67,30 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_BISON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_BISON</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
 	</Building_ResourceYieldChanges>
 	<Building_Flavors>
 		<Row>
@@ -91,7 +114,7 @@
 			<Text>Meat Packing Plant</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICAN_FACTORY_HELP">
-			<Text>Each source of [ICON_RES_COW] Cow produces +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production. Requires 1 [ICON_RES_COAL] Coal.</Text>
+			<Text>Each source of [ICON_RES_COW] Cow, [ICON_RES_SHEEP] Sheep, and [ICON_RES_BISON] Bison worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production. Requires 1 [ICON_RES_COAL] Coal.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICAN_FACTORY_STRATEGY">
 			<Text>The Meat Packing Plant is an American Unique Building, replacing the Factory. The Meat Packing Plant is an Industrial-era building which greatly increases a city's [ICON_PRODUCTION] Production and [ICON_FOOD] Food. The city must already possess a Workshop. 1 [ICON_RES_COAL] Coal is consumed when a Meat Packing Plant is created.</Text>

@@ -79,7 +79,7 @@
 	<Unit_ResourceQuantityRequirements>
 		<Row>
 			<UnitType>UNIT_AMERICAN_IRONCLAD</UnitType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 	</Unit_ResourceQuantityRequirements>	
