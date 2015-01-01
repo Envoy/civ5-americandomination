@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_MERCHANT</Class>
+			<Type>UNIT_AMERICAN_MERCHANT</Type>
+			<Cost>-1</Cost>
+			<Moves>3</Moves>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
+			<Special>SPECIALUNIT_PEOPLE</Special>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_MERCHANT</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AMERICAN_GREAT_MERCHANT</Description>
+			<Civilopedia>TXT_KEY_CIV5_AMERICAN_GREATMERCHANTS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AMERICAN_GREAT_MERCHANT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_AMERICAN_GREAT_MERCHANT</Help>
+			<AdvancedStartCost>-1</AdvancedStartCost>
+			<WorkRate>1</WorkRate>
+			<CombatLimit>0</CombatLimit>
+			<BaseGold>600</BaseGold>
+			<NumGoldPerEra>200</NumGoldPerEra>
+			<UnitArtInfo>ART_DEF_UNIT_MERCHANT</UnitArtInfo>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitFlagIconOffset>92</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>46</PortraitIndex>
+			<MoveRate>GREAT_PERSON</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UnitAIType>UNITAI_MERCHANT</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<BuildType>BUILD_AMERICAN_CUSTOMS_HOUSE</BuildType>
+		</Row>
+
+	</Unit_Builds>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_1</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_2</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_3</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_4</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_5</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_6</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_7</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_8</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_9</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_10</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_11</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_12</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_13</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_14</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_15</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_16</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_17</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_18</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_19</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_20</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_GREAT_MERCHANT">
+			<Text>Entrepreneur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_GREAT_MERCHANT_STRATEGY">
+			<Text>The Entrepreneur is an American Unique Great Person, replacing the Great Merchant. The Entrepreneur can construct the special Startup Company improvement which, when worked, produces +5 [ICON_GOLD] Gold, +2 [ICON_PRODUCTION] Production, and +1 [ICON_RESEARCH] Science. The Entrepreneur can also journey to a city-state and perform a "trade mission" which produces gobs of [ICON_GOLD] Gold and garners many Influence Points with the city-state. The Entrepreneur is expended when used in either of these ways.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AMERICAN_GREAT_MERCHANT">
+			<Text>This American Unique Great Person replaces the Great Merchant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_AMERICAN_GREATMERCHANTS_TEXT">
+			<Text>The entrepreneur is commonly seen as an innovator, a generator of new ideas and business processes. Management skill and strong team building abilities are often perceived as essential leadership attributes for successful entrepreneurs. Political economist Robert Reich considers leadership, management ability, and team-building to be essential qualities of an entrepreneur.[NEWLINE][NEWLINE]Source: http://en.wikipedia.org/wiki/Entrepreneurship</Text>
+		</Row>		
+		<!-- Unique Names-->
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_1">
+			<Text>Steve Jobs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_2">
+			<Text>Bill Gates</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_3">
+			<Text>Larry Ellison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_4">
+			<Text>Warren Buffet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_5">
+			<Text>Sheldon Adelson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_6">
+			<Text>Mark Zuckerberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_7">
+			<Text>Michael Bloomberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_8">
+			<Text>Larry Page</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_9">
+			<Text>Henry Ford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_10">
+			<Text>John D. Rockefeller</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_11">
+			<Text>Andrew Carnegie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_12">
+			<Text>Sam Walton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_13">
+			<Text>J.P. Morgan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_14">
+			<Text>Alfred Sloan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_15">
+			<Text>Walt Disney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_16">
+			<Text>Ray Kroc</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_17">
+			<Text>Thomas Edison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_18">
+			<Text>Michael Dell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_19">
+			<Text>Jeff Bezos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMERICAN_MERCHANT_20">
+			<Text>Hugh Hefner</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

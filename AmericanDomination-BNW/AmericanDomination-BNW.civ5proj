@@ -5,10 +5,10 @@
     <ProjectGuid>{65937536-86e4-4831-b9ba-a18030c82754}</ProjectGuid>
     <Name>American Domination (Brave New World)</Name>
     <Guid>8d11df18-49c1-444c-8bcd-d41fc7c95909</Guid>
-    <ModVersion>9</ModVersion>
+    <ModVersion>10</ModVersion>
     <Stability>Beta</Stability>
     <Teaser>This mod makes the American civilization EXTREMELY overpowered, and fun to play.</Teaser>
-    <Description>This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 20 new units, 11 new buldings, one new resource, and one new improvement! Enjoy!
+    <Description>This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 20 new units, 11 new buldings, one new resource, one new great person, and two new improvements! Enjoy!
 
 [NEWLINE]
 [NEWLINE]
@@ -56,7 +56,6 @@ New Units (America):
 [NEWLINE][ICON_BULLET]F-35 Lightning II (Jet Fighter)
 [NEWLINE][ICON_BULLET]B-2 Spirit (Stealth Bomber)
 [NEWLINE][ICON_BULLET]Freedombringer (Giant Death Robot)
-
 [NEWLINE]
 [NEWLINE]
 
@@ -84,6 +83,13 @@ New Resources (America):
 
 New Improvements (America):
 [NEWLINE][ICON_BULLET]Hardend Fort (Fort)
+[NEWLINE][ICON_BULLET]Startup Company (Customs House)
+
+[NEWLINE]
+[NEWLINE]
+
+New Great People (America):
+[NEWLINE][ICON_BULLET]Entrepreneur (Great Merchant)
 
 [NEWLINE]
 [NEWLINE]
@@ -338,6 +344,11 @@ Special Thanks:
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>XML/Units/AD_NimitzClassSupercarrier.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Units/AD_Entrepreneur.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -794,6 +805,10 @@ Special Thanks:
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Units\AD_RifledCannon_Art.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Units\AD_Entrepreneur.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

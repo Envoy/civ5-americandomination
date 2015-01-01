@@ -201,6 +201,11 @@
 			<UnitClassType>UNITCLASS_MECH</UnitClassType>
 			<UnitType>UNIT_AMERICAN_MECH</UnitType>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<UnitClassType>UNITCLASS_MERCHANT</UnitClassType>
+			<UnitType>UNIT_AMERICAN_MERCHANT</UnitType>
+		</Row>
 	</Civilization_UnitClassOverrides>
 	<Civilization_Start_Along_River>
 		<Row>
