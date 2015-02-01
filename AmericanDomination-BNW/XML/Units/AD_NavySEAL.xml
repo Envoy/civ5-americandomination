@@ -30,6 +30,40 @@
 			<PortraitIndex>14</PortraitIndex>
 		</Row>
 	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<UnitAIType>UNITAI_PARADROP</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<UnitClassType>UNITCLASS_XCOM_SQUAD</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_AMERICAN_PARATROOPER</UnitType>

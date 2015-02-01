@@ -24,6 +24,19 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 		</Row>
 	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<UnitAIType>UNITAI_WORKER</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_WORKER</UnitType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Unit_Flavors>
 	<Unit_Builds>
 		<Row>
 			<UnitType>UNIT_AMERICAN_WORKER</UnitType>

@@ -36,6 +36,41 @@
 			<MoveRate>SUB</MoveRate>
 		</Row>
 	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Unit_Flavors>
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_AMERICAN_NUCLEAR_SUBMARINE</UnitType>

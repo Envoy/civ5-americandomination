@@ -24,6 +24,19 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 		</Row>
 	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SETTLER</UnitType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SETTLER</UnitType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>21</Flavor>
+		</Row>
+	</Unit_Flavors>
 	<Unit_FreePromotions>		
 		<Row>
 			<UnitType>UNIT_AMERICAN_SETTLER</UnitType>

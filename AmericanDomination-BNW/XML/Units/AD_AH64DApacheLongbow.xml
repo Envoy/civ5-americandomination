@@ -29,6 +29,29 @@
 			<MoveRate>WHEELED</MoveRate>
 		</Row>
 	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+	</Unit_Flavors>
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_AMERICAN_HELICOPTER_GUNSHIP</UnitType>

@@ -26,7 +26,7 @@
 		<Row>
 			<BuildingType>BUILDING_AMERICAN_CONSTABLE</BuildingType>
 			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>25</Flavor>
 		</Row>
 	</Building_Flavors>
 	<Language_en_US>

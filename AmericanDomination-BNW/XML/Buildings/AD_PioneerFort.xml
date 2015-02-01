@@ -35,6 +35,11 @@
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_WALLS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
 	</Building_Flavors>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_AMERICAN_WALLS">

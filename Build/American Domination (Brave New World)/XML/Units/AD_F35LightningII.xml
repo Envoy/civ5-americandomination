@@ -36,8 +36,39 @@
 			<MoveRate>AIR_REBASE</MoveRate>
 		</Row>
 	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Unit_Flavors>
 	<Unit_FreePromotions>
-		<!-- F-355 Lightning II -->
 		<Row>
 			<UnitType>UNIT_AMERICAN_JET_FIGHTER</UnitType>
 			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>

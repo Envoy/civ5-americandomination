@@ -34,6 +34,13 @@
 			<MoveRate>BOAT</MoveRate>
 		</Row>
 	</Units>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_SUPERCARRIER</UnitType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+	</Unit_Flavors>
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_AMERICAN_SUPERCARRIER</UnitType>

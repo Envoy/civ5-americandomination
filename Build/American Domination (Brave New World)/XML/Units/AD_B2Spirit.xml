@@ -36,6 +36,29 @@
 			<MoveRate>AIR_REBASE</MoveRate>
 		</Row>	
 	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Unit_Flavors>
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_AMERICAN_STEALTH_BOMBER</UnitType>

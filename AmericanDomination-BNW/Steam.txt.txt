@@ -1,0 +1,71 @@
+This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 20 new units, 11 new buildings, one new resource, one new great person, and two new improvements! Enjoy! 
+
+Requires Brave New World. The old mod for Gods and Kings can be found here: http://steamcommunity.com/sharedfiles/filedetails/?id=93867891 
+
+The code for this mod can be found on GitHub: https://github.com/Envoy/civ5-americandomination 
+
+Civilization changes (America): 
+- United Patriotism (Manifest Destiny): The empire enters a double-length Golden Age when war is declared upon it. All cities in the empire celebrate "We Love the King Day" when any war is ended. 
+- Starts with Agriculture, Pottery, Animal Husbandry, Archery and Mining technologies 
+- Starts with one Scout unit 
+- Starts with two Settler units 
+- Starts with two Worker units 
+
+New Units (all civs): 
+- Supercarrier 
+- UAV 
+
+New Units (America): 
+- Pioneer (Settler) 
+- Migrant Worker (Worker) 
+- Native Scout (Scout) 
+- Rifled Cannon (Cannon) 
+- Monitor-class Ironclad (Ironclad) 
+- Iowa-class Battleship (Battleship) 
+- Navy SEAL (Paratrooper) 
+- AH-64D Apache Longbow (Helicopter Gunship) 
+- M270 Gypsy Wagon (Rocket Artillery) 
+- Tomahawk Missile (Guided Missile) 
+- Trident II Nuclear Missile (Nuclear Missile) 
+- M3A3 Bradley (Mechanized Infantry) 
+- M1A2 Abrams (Modern Armor) 
+- Ohio-class Nuclear Submarine (Nuclear Submarine) 
+- MQ-9 Reaper (UAV) 
+- Nimitz-class Supercarrier (Supercarrier) 
+- Ticonderoga-class Missile Cruiser (Missile Cruiser) 
+- F-35 Lightning II (Jet Fighter) 
+- B-2 Spirit (Stealth Bomber) 
+- Freedombringer (Giant Death Robot) 
+
+New Buildings (America): 
+- The White House (Palace) 
+- Pioneer Fort (Walls) 
+- Cavalry Garrison (Stable) 
+- Statehouse (Garden) 
+- Pinkertons (Constabulary) 
+- Meat Packing Plant (Factory) 
+- NYSE (Stock Exchange) 
+- Hilton (Hotel) 
+- U.S. Military Base (Military Base) 
+- Pharmaceutical Lab (Medical Lab) 
+- Fallout Shelter (Bomb Shelter) 
+
+New Resources (America): 
+- Pharmaceuticals 
+
+New Improvements (America): 
+- Hardened Fort (Fort) 
+- Startup Company (Customs House) 
+
+New Great People (America): 
+- Entrepreneur (Great Merchant) 
+
+Notes: 
+- There is a bug when setting WLTKD for cities using Lua whereby the banner doesn't always show in the city view screen. Mousing over the food section on the city view screen will correctly show the WLTKD bonus. 
+
+Special Thanks: 
+- Thalassicus: Idea for Pioneer Fort (http://civmodding.wordpress.com/vem/leaders/) 
+- William Howard: Idea and art for Supercarrier, Cavalry Garrison 
+- Cookie_Magic: Inclusion of "America Unique Ability Enhanced" mod 
+- firstconsul: Idea for new UA (http://forums.civfanatics.com/showthread.php?t=492561&page=7) 
+- Ekmek, asioasioasio: UAV unit and art (http://forums.civfanatics.com/showthread.php?t=494209)
