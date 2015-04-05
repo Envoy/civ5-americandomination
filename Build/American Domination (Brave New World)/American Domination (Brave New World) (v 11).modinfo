@@ -100,9 +100,10 @@ Special Thanks:
 [NEWLINE][ICON_BULLET]Thalassicus: Idea for Pioneer Fort (http://civmodding.wordpress.com/vem/leaders/)
 [NEWLINE][ICON_BULLET]William Howard: Idea and art for Supercarrier, Cavalry Garrison
 [NEWLINE][ICON_BULLET]Cookie_Magic: Inclusion of "America Unique Ability Enhanced" mod
-[NEWLINE][ICON_BULLET]firstconsul: Idea for new UA (http://forums.civfanatics.com/showthread.php?t=492561&amp;page=7)[NEWLINE][ICON_BULLET]Ekmek, asioasioasio: UAV unit and art (http://forums.civfanatics.com/showthread.php?t=494209)</Description>
+[NEWLINE][ICON_BULLET]firstconsul: Idea for new UA (http://forums.civfanatics.com/showthread.php?t=492561&amp;page=7)[NEWLINE][ICON_BULLET]Ekmek, asioasioasio: UAV unit and art (http://forums.civfanatics.com/showthread.php?t=494209)
+[NEWLINE][ICON_BULLET]The Ultimate Potato: UAV icon art (http://steamcommunity.com/sharedfiles/filedetails/?id=417513873)</Description>
     <Authors>[COLOR_PLAYER_ORANGE]Envoy[ENDCOLOR] [COLOR_CYAN](@fourfourhero)[ENDCOLOR]</Authors>
-    <SpecialThanks>Thalassicus, William Howard, Cookie_Magic, firstconsul, Ekmek, asioasioasio</SpecialThanks>
+    <SpecialThanks>Thalassicus, William Howard, Cookie_Magic, firstconsul, Ekmek, asioasioasio, The Ultimate Potato</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
@@ -129,6 +130,12 @@ Special Thanks:
     <File md5="E973EF2D433A99F2790EF8889A58FA99" import="1">ART/ADIconAtlas256.dds</File>
     <File md5="DFD1D60B6B216B33DA46BEEBE156C07F" import="1">ART/ADIconAtlas45.dds</File>
     <File md5="63EE17F7E4E81F41D4DFDF5DE7CFF38C" import="1">ART/ADIconAtlas64.dds</File>
+    <File md5="2240256CAC448A400F0CC3DDE91DA182" import="1">ART/UAV_IconAtlas32.dds</File>
+    <File md5="45C5E33154E40A8A3E20D68CC2309670" import="1">ART/UAV_IconAtlas128.dds</File>
+    <File md5="22D654A926031201538D9A5DA1A5B170" import="1">ART/UAV_IconAtlas256.dds</File>
+    <File md5="1B8BD9145686F2C32D73CCD211C427C7" import="1">ART/UAV_IconAtlas45.dds</File>
+    <File md5="1E61AD4FCCCF48BFECB9ABF3D8993DA9" import="1">ART/UAV_IconAtlas64.dds</File>
+    <File md5="AB91140EC5A79FF3A20B1B9B22F2ED53" import="1">ART/UAV_IconAtlas80.dds</File>
     <File md5="6341124C36EA15D76FD0C84529E5C332" import="1">ART/Pharmaceuticals_FontIcon.dds</File>
     <File md5="5D981621D26EB4AAAA110D189922BC84" import="1">ART/Pharmaceuticals_FontIcon.ggxml</File>
     <File md5="0467ADC48E67499C4C83FBB7A5763585" import="1">ART/SuperCarrier128.dds</File>
@@ -147,12 +154,6 @@ Special Thanks:
     <File md5="C2797A62DF1EE670FAF250EA1B7ED809" import="1">ART/TheWhiteHouse64.dds</File>
     <File md5="25508B471913335C68040D5530CDA408" import="1">ART/UAV.dds</File>
     <File md5="F4883E68FD3C96A8EBD0C18DCF6DB79E" import="1">ART/uav.gr2</File>
-    <File md5="FA6D61D0AB7AF957EF09E8CA7DA1D638" import="1">ART/UAVatlas128.dds</File>
-    <File md5="ADF4D54987AC6EC6B9F4654624326FCD" import="1">ART/UAVatlas256.dds</File>
-    <File md5="E55DE3DE2A81BF86E8A8E37F5FF314FF" import="1">ART/UAVatlas32.dds</File>
-    <File md5="7763F0960003B5A0568707C423FE73D8" import="1">ART/UAVatlas45.dds</File>
-    <File md5="C60F3988BEF7B401DF6FA37A88AA0E4B" import="1">ART/UAVatlas64.dds</File>
-    <File md5="38224851BE5EE8A2D30F6199C103A3D7" import="1">ART/UAVatlas80.dds</File>
     <File md5="E67EC2B0DCD3D94063F3720CBE02018A" import="1">ART/UAV_SREF.dds</File>
     <File md5="6E277556AE29F62F5507CFCAE3B1BED2" import="1">ART/UBIconAtlas128.dds</File>
     <File md5="372742D9B878CBDBFF7CEF2990D67CDE" import="1">ART/UBIconAtlas256.dds</File>
@@ -217,7 +218,7 @@ Special Thanks:
     <File md5="4631C3C9D006E6E3BF3754596C795A57" import="0">XML/Units/AD_MigrantWorker.xml</File>
     <File md5="73CAE4931B35BE5CEDE10741E6AB072B" import="0">XML/Units/AD_MonitorClassIronclad.xml</File>
     <File md5="8E859A8FFB95B4552B22955431F8B245" import="0">XML/Units/AD_MonitorClassIronclad_Art.xml</File>
-    <File md5="8F238713CC1979CB5DFEEAC81B37481D" import="0">XML/Units/AD_MQ9Reaper.xml</File>
+    <File md5="5DC06D23EE04B2E9BE156CF71588E6CE" import="0">XML/Units/AD_MQ9Reaper.xml</File>
     <File md5="196C1DF6D8C297A4592D72A2C2399B23" import="0">XML/Units/AD_NativeAmericanScout.xml</File>
     <File md5="008D55F4EDA5D8B20DD9933758E35481" import="0">XML/Units/AD_NavySEAL.xml</File>
     <File md5="F8DA86FA0BDFBA174383C9E07B911F07" import="0">XML/Units/AD_NimitzClassSupercarrier.xml</File>
@@ -233,9 +234,9 @@ Special Thanks:
     <File md5="2BCC91C913D67D203945768264EFEDB1" import="0">XML/Units/AD_TiconderogaClassMissileCruiser.xml</File>
     <File md5="F6FB3B04D40A41C573D3ED04FEF01D51" import="0">XML/Units/AD_TomahawkMissile.xml</File>
     <File md5="EEB846C02DA058FF5B6B6FA5798FEFEB" import="0">XML/Units/AD_TridentIINuclearMissile.xml</File>
-    <File md5="E08FC73D046B730179FD937C8F1A2EE1" import="0">XML/Units/AD_UAV.xml</File>
+    <File md5="1920B7776B4FE84A950941631643EBC1" import="0">XML/Units/AD_UAV.xml</File>
     <File md5="5A371AF4B8F49F7FE32A51E154103FCD" import="0">XML/Units/AD_UAV_Art.xml</File>
-    <File md5="8370266D65270940495642F1C98F3ADF" import="0">XML/Units/AD_UAV_Icons.xml</File>
+    <File md5="63C4920D6D4A4CF1B8699E37B586C769" import="0">XML/Units/AD_UAV_Icons.xml</File>
     <File md5="0AFDD77D5275329827D191A0D78443BC" import="0">XML/Units/AD_UnitPromotions.xml</File>
     <File md5="F1D1E4B9C83316536FD099C3A18D6188" import="0">XML/Units/AD_UnitUpdates.xml</File>
   </Files>

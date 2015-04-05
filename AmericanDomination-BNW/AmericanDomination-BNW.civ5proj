@@ -104,9 +104,10 @@ Special Thanks:
 [NEWLINE][ICON_BULLET]Thalassicus: Idea for Pioneer Fort (http://civmodding.wordpress.com/vem/leaders/)
 [NEWLINE][ICON_BULLET]William Howard: Idea and art for Supercarrier, Cavalry Garrison
 [NEWLINE][ICON_BULLET]Cookie_Magic: Inclusion of "America Unique Ability Enhanced" mod
-[NEWLINE][ICON_BULLET]firstconsul: Idea for new UA (http://forums.civfanatics.com/showthread.php?t=492561&amp;page=7)[NEWLINE][ICON_BULLET]Ekmek, asioasioasio: UAV unit and art (http://forums.civfanatics.com/showthread.php?t=494209)</Description>
+[NEWLINE][ICON_BULLET]firstconsul: Idea for new UA (http://forums.civfanatics.com/showthread.php?t=492561&amp;page=7)[NEWLINE][ICON_BULLET]Ekmek, asioasioasio: UAV unit and art (http://forums.civfanatics.com/showthread.php?t=494209)
+[NEWLINE][ICON_BULLET]The Ultimate Potato: UAV icon art (http://steamcommunity.com/sharedfiles/filedetails/?id=417513873)</Description>
     <Authors>[COLOR_PLAYER_ORANGE]Envoy[ENDCOLOR] [COLOR_CYAN](@fourfourhero)[ENDCOLOR]</Authors>
-    <SpecialThanks>Thalassicus, William Howard, Cookie_Magic, firstconsul, Ekmek, asioasioasio</SpecialThanks>
+    <SpecialThanks>Thalassicus, William Howard, Cookie_Magic, firstconsul, Ekmek, asioasioasio, The Ultimate Potato</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
@@ -424,6 +425,30 @@ Special Thanks:
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="ART\UAV_IconAtlas32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\UAV_IconAtlas128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\UAV_IconAtlas256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\UAV_IconAtlas45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\UAV_IconAtlas64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\UAV_IconAtlas80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="ART\Pharmaceuticals_FontIcon.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -493,30 +518,6 @@ Special Thanks:
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="ART\uav.gr2">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="ART\UAVatlas128.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="ART\UAVatlas256.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="ART\UAVatlas32.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="ART\UAVatlas45.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="ART\UAVatlas64.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="ART\UAVatlas80.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>

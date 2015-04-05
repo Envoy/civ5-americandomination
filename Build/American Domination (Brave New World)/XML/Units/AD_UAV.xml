@@ -34,7 +34,7 @@
 			<UnitFlagAtlas>UNITS_UAV_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>CIV_UNIT_ATLAS_UAV</IconAtlas>
-			<PortraitIndex>0</PortraitIndex>
+			<PortraitIndex>2</PortraitIndex>
 		</Row>
 	</Units>
 	<Unit_AITypes>
