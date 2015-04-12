@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="8d11df18-49c1-444c-8bcd-d41fc7c95909" version="11">
+<Mod id="8d11df18-49c1-444c-8bcd-d41fc7c95909" version="12">
   <Properties>
     <Name>American Domination (Brave New World)</Name>
     <Stability>Beta</Stability>
     <Teaser>This mod makes the American civilization EXTREMELY overpowered, and fun to play.</Teaser>
-    <Description>This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 20 new units, 11 new buldings, one new resource, one new great person, and two new improvements! Enjoy!
+    <Description>This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 20 new units, 12 new buldings, one new resource, one new great person, and two new improvements! Enjoy!
 
 [NEWLINE]
 [NEWLINE]
@@ -58,6 +58,7 @@ New Units (America):
 New Buildings (America):
 [NEWLINE][ICON_BULLET]The White House (Palace)
 [NEWLINE][ICON_BULLET]Pioneer Fort (Walls)
+[NEWLINE][ICON_BULLET]U.S. Barracks (Barracks)
 [NEWLINE][ICON_BULLET]Cavalry Garrison (Stable)
 [NEWLINE][ICON_BULLET]Statehouse (Garden)
 [NEWLINE][ICON_BULLET]Pinkertons (Constabulary)
@@ -202,9 +203,10 @@ Special Thanks:
     <File md5="921CABA6365DD0DDA6AF0EBDF6A58477" import="0">XML/Buildings/AD_Pinkertons.xml</File>
     <File md5="756D21A6B2F36817412A2CEFA22169E9" import="0">XML/Buildings/AD_PioneerFort.xml</File>
     <File md5="9CF83891D68365D8601E682F53346A9E" import="0">XML/Buildings/AD_Statehouse.xml</File>
+    <File md5="0C4FFB20BD1EA40D79B1799393DDA0A7" import="0">XML/Buildings/AD_USBarracks.xml</File>
     <File md5="EB711A0A781E486C5722D08C1A62B82B" import="0">XML/Buildings/AD_USMilitaryBase.xml</File>
     <File md5="ED4C0662C4958270DF9E8DC9D8BD832F" import="0">XML/Buildings/AD_WhiteHouse.xml</File>
-    <File md5="46FB15CA3154A31028E3D01C47DA6261" import="0">XML/Civilizations/AD_Civilizations.xml</File>
+    <File md5="2D55DDFE9E42C9944DCE28BE35442BC1" import="0">XML/Civilizations/AD_Civilizations.xml</File>
     <File md5="7ADD0D1DB4F3426CA8AAA4957DA1082B" import="0">XML/Civilizations/AD_Traits.xml</File>
     <File md5="242246B2C44D67FD8ABF59240EE8E685" import="0">XML/Terrain/AD_Improvements.xml</File>
     <File md5="A2A0CA6D92E2305C16F2D99004E9B4B7" import="0">XML/Units/AD_AH64DApacheLongbow.xml</File>
@@ -246,6 +248,7 @@ Special Thanks:
       <UpdateDatabase>XML/Civilizations/AD_Traits.xml</UpdateDatabase>
       <UpdateDatabase>XML/Buildings/AD_WhiteHouse.xml</UpdateDatabase>
       <UpdateDatabase>XML/Buildings/AD_PioneerFort.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/AD_USBarracks.xml</UpdateDatabase>
       <UpdateDatabase>XML/Buildings/AD_CavalryGarrison.xml</UpdateDatabase>
       <UpdateDatabase>XML/Buildings/AD_Statehouse.xml</UpdateDatabase>
       <UpdateDatabase>XML/Buildings/AD_Pinkertons.xml</UpdateDatabase>

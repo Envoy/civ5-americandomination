@@ -1,4 +1,4 @@
-This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 20 new units, 11 new buildings, one new resource, one new great person, and two new improvements! Enjoy! 
+This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 20 new units, 12 new buildings, one new resource, one new great person, and two new improvements! Enjoy! 
 
 Requires Brave New World. The old mod for Gods and Kings can be found here: http://steamcommunity.com/sharedfiles/filedetails/?id=93867891 
 
@@ -39,6 +39,7 @@ New Units (America):
 
 New Buildings (America): 
 - The White House (Palace) 
+- U.S. Barracks (Barracks)
 - Pioneer Fort (Walls) 
 - Cavalry Garrison (Stable) 
 - Statehouse (Garden) 

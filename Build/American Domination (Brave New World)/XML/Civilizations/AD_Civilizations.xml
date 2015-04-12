@@ -56,6 +56,11 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_AMERICAN_BARRACKS</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
 			<BuildingType>BUILDING_CAVALRY_GARRISON</BuildingType>
 		</Row>

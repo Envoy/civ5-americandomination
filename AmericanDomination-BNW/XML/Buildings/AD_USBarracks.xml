@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AMERICAN_BARRACKS</Type>
+			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>75</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_AMERICAN_BARRACKS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_AMERICAN_BARRACKS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BARRACKS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AMERICAN_BARRACKS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>300</Defense>
+			<ExtraCityHitPoints>30</ExtraCityHitPoints>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>30</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>30</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>30</Experience>
+		</Row>		
+	</Building_DomainFreeExperiences>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_BARRACKS</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_BARRACKS">
+			<Text>U.S. Barracks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_BARRACKS_HELP">
+			<Text>+30 XP for all Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_BARRACKS_STRATEGY">
+			<Text>The U.S. Barracks are an American Unique Building, replacing the Barracks. U.S. Barracks provide experience for military units constructed in the city. This experience can be used to give the units Promotions, making them more effective in battle. The U.S. Barracks increases the city's Defensive Strength by 3 and Hit Points by 30.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

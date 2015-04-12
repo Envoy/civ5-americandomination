@@ -5,10 +5,10 @@
     <ProjectGuid>{65937536-86e4-4831-b9ba-a18030c82754}</ProjectGuid>
     <Name>American Domination (Brave New World)</Name>
     <Guid>8d11df18-49c1-444c-8bcd-d41fc7c95909</Guid>
-    <ModVersion>11</ModVersion>
+    <ModVersion>12</ModVersion>
     <Stability>Beta</Stability>
     <Teaser>This mod makes the American civilization EXTREMELY overpowered, and fun to play.</Teaser>
-    <Description>This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 20 new units, 11 new buldings, one new resource, one new great person, and two new improvements! Enjoy!
+    <Description>This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 20 new units, 12 new buldings, one new resource, one new great person, and two new improvements! Enjoy!
 
 [NEWLINE]
 [NEWLINE]
@@ -61,6 +61,7 @@ New Units (America):
 
 New Buildings (America):
 [NEWLINE][ICON_BULLET]The White House (Palace)
+[NEWLINE][ICON_BULLET]U.S. Barracks (Barracks)
 [NEWLINE][ICON_BULLET]Pioneer Fort (Walls)
 [NEWLINE][ICON_BULLET]Cavalry Garrison (Stable)
 [NEWLINE][ICON_BULLET]Statehouse (Garden)
@@ -140,6 +141,11 @@ Special Thanks:
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>XML/Buildings/AD_WhiteHouse.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Buildings/AD_USBarracks.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -710,6 +716,10 @@ Special Thanks:
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Buildings\AD_Statehouse.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Buildings\AD_USBarracks.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
