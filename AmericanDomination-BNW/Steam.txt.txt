@@ -1,4 +1,4 @@
-This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 20 new units, 12 new buildings, one new resource, one new great person, and two new improvements! Enjoy! 
+This mod makes the American civilization EXTREMELY overpowered, and fun to play. This is the sole purpose of this mod. 20 new units, 12 new buildings, two new resources, two new improvements, and one new great person! Enjoy! 
 
 Requires Brave New World. The old mod for Gods and Kings can be found here: http://steamcommunity.com/sharedfiles/filedetails/?id=93867891 
 
@@ -44,7 +44,7 @@ New Buildings (America):
 - Cavalry Garrison (Stable) 
 - Statehouse (Garden) 
 - Pinkertons (Constabulary) 
-- Meat Packing Plant (Factory) 
+- Steel Mill (Factory) 
 - NYSE (Stock Exchange) 
 - Hilton (Hotel) 
 - U.S. Military Base (Military Base) 
@@ -52,6 +52,7 @@ New Buildings (America):
 - Fallout Shelter (Bomb Shelter) 
 
 New Resources (America): 
+- Steel
 - Pharmaceuticals 
 
 New Improvements (America): 
@@ -64,10 +65,4 @@ New Great People (America):
 Notes: 
 - There is a bug when setting WLTKD for cities using Lua whereby the banner doesn't always show in the city view screen. Mousing over the food section on the city view screen will correctly show the WLTKD bonus. 
 
-Special Thanks: 
-- Thalassicus: Idea for Pioneer Fort - http://civmodding.wordpress.com/vem/leaders/
-- William Howard: Idea and art for Supercarrier, Cavalry Garrison 
-- Cookie_Magic: Inclusion of "America Unique Ability Enhanced" mod 
-- firstconsul: Idea for new UA - http://forums.civfanatics.com/showthread.php?t=492561&page=7
-- Ekmek, asioasioasio: UAV unit and art - http://forums.civfanatics.com/showthread.php?t=494209
-- The Ultimate Potato: UAV icon art - http://steamcommunity.com/sharedfiles/filedetails/?id=417513873
+This mod borrows and steals from the work of several talented people who I thank profusely: Thalassicus, William Howard, Cookie_Magic, firstconsul, Ekmek, asioasioasio, The Ultimate Potato, SamBC, mikeburnfire, labriejp

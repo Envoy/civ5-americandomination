@@ -31,6 +31,12 @@
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
 	</Buildings>
+	<Building_TechAndPrereqs>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_FACTORY</BuildingType>
+			<TechType>TECH_STEEL</TechType>
+		</Row>
+	</Building_TechAndPrereqs>
 	<Building_Flavors>
 		<Row>
 			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>

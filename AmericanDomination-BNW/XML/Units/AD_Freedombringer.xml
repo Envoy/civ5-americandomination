@@ -5,7 +5,7 @@
 			<Class>UNITCLASS_MECH</Class>
 			<Type>UNIT_AMERICAN_MECH</Type>
 			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
-			<Combat>200</Combat>
+			<Combat>250</Combat>
 			<Cost>600</Cost>
 			<Moves>8</Moves>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
@@ -46,7 +46,7 @@
 		<Row>
 			<UnitType>UNIT_AMERICAN_MECH</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>50</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AMERICAN_MECH</UnitType>
@@ -85,6 +85,10 @@
 		<Row>
 			<UnitType>UNIT_AMERICAN_MECH</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MECH</UnitType>
+			<ResourceType>RESOURCE_STEEL</ResourceType>
 		</Row>
 	</Unit_ResourceQuantityRequirements>	
 	<Language_en_US>

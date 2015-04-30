@@ -26,7 +26,7 @@
 			<XPValueDefense>3</XPValueDefense>
 			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
-			<UnitArtInfo>ART_DEF_UNIT_SUPER_CARRIER</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_NIMITZ</UnitArtInfo>
 			<UnitFlagAtlas>UNITS_SUPERCARRIER_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>UNITS_SUPERCARRIER_ICON_ATLAS</IconAtlas>
